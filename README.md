@@ -13,7 +13,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Pedro Henrique Nascimento Lemos
 * Josue Batista de Almeida
 * Luís Eduardo Vieira Chaves Paiva
-* Nome completo do aluno 4
+* Anna Gerassimova
+* Nome completo do aluno 5
 
 ## Orientador
 

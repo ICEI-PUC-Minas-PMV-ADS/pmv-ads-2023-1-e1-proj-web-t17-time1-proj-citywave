@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Josue Batista de Almeida
 * Luís Eduardo Vieira Chaves Paiva
 * Anna Gerassimova
-* Nome completo do aluno 5
+* Mariane de Oliveira Duarte
 
 ## Orientador
 

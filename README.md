@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Luís Eduardo Vieira Chaves Paiva
 * Anna Gerassimova
 * Mariane de Oliveira Duarte
+* Guilherme Pereira de Abreu Bourguignon
 
 ## Orientador
 

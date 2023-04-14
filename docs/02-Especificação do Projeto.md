@@ -9,65 +9,85 @@ A identificação do problema e as soluções a serem tratadas neste projeto for
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem.
 
 ### Helena Franco, 22 anos. 
+
 **Dados Principais:**
 Solteira, mora com a família na Pampulha - Belo Horizonte. Estudante de Gestão em Recursos Humanos faz estágio em um escritório que presta serviços de administração e rotinas de departamento pessoal, localizado no bairro Barro preto.
+
 **Hábitos:**
 Apesar de ter uma rotina agitada, Helena faz questão de separar momentos com a família e amigos. Helena sempre tenta se manter motivada com os estudos prezando pelo conhecimento e acredita que o desenvolvimento pessoal pode ajudar a alavancar sua carreira.
+
 **Hobbies:**
 - Sair com a família e amigos da faculdade.
 - Ouvir músicas.
 - Estar em contato com a natureza.
 - Frequentar pubs e festivais de música.
+
 **Objetivos:**
 - Desenvolver estratégias institucionais e colocar em prática programas envolvendo pessoas em todas as esferas, que incluem assuntos como liderança e motivação
+
 **Frustrações:**
 - Preço alto e locais de difícil acesso.
 
 ### Roberto Gardone, 39 anos.
+
 **Dados Principais:**
 Casado, mora com sua esposa Natália no Belvedere-Belo Horizonte. Atua no mercado na área de arquitetura e urbanismo.
+
 **Hábitos:**
 Roberto costuma convidar sua esposa para eventos sociais de que participa, além disso gosta de dividir e compartilhar momentos com sua família aos finais de semana.
+
 **Hobbies:**
 - Viajar
 - Participar de eventos que trazem networking
 - Geralmente frequenta parques, restaurantes, museus e teatros.
+
 **Objetivos:**
 - Resgatar a identidade cultural na área da arquitetura e urbanismo, com vista à compreensão das relações entre as pessoas e as criações arquitetônicas e a função destas face às necessidades sociais
+
 **Frustrações:**
 - Falta de locais que prendem e chamam a atenção.
 - Lugares com muito barulho
 
 ### Elizabeth Santos, 45 anos.
+
 **Dados Principais:**
 Casada, tem 2 filhos, Pedro com 10 anos de idade e Alice com 5 anos. Mora com a família no Sion - Belo Horizonte, leciona história na UFMG localizada na região da Pampulha.
+
 **Hábitos:**
 Elizabeth faz questão de se manter o mais presente possível na vida de seus filhos, participa da educação, costuma levá-los para museus, parques e eventos culturais.
+
 **Hobbies:**
 - Ouvir músicas. 
 - Ler livros.
 - Estar em contato com a natureza.
 - Praticar Yoga
 - Sair com os filhos.
+
 **Objetivos:**
 - Compartilhar conhecimentos e informações com outras pessoas.
+
 **Frustrações:**
 - Pouca divulgação dos eventos culturais.
 - Poucos lugares familiares.
 
 ### Flávia Reis, 27 anos.
+
 **Dados Principais:**
 Solteira, formada em psicologia, Flávia acabou de se mudar da casa dos pais para ir morar com as amigas no centro de Betim.
+
 **Hábitos:**
 Realiza atendimentos online pela psicologia viva durante a semana, no tempo livre gosta de cozinhar e conhecer novas pessoas.
+
 **Hobbies:**
 - Testar novas receitas
 - Conversar
 - Costuma frequentar bares, restaurantes e cafeterias
 - Gosta de música ao vivo. 
+
 **Objetivos:**
 - Conhecer pessoas novas para trocar conhecimento
 - Acrescentar músicas diferentes na playlist 
+
 **Frustrações:**
 - Lugares com atendimento ruim e preço alto
 

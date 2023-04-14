@@ -41,6 +41,10 @@ Estará hospedada em um site, futuramente disponibilizado.
 <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
 
+# Documentação
+
+* Link para a documentação no Docs Google: (https://docs.google.com/document/d/1gf98DPnFQuWKSHKi3-5Ughd_h-4YuS2SEdMBYHDVLF4/edit?usp=sharing)
+
 # Hospedagem
 
 * Insira o endereço eletrônico público de acesso ao conteúdo publicado. 

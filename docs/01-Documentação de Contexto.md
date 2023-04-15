@@ -1,46 +1,32 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Evidentemente as pessoas buscam um lugar para onde ir, para socializarem, reunir os amigos, família, ou até mesmo desfrutar de uma viagem. A convivência social permite que criemos um sentimento de pertencimento, portanto evidenciamos a importância de estar em harmonia com o ambiente, com as pessoas, ter diferentes pontos de vistas e ideias e assim, criar novos contatos aumentando nosso nível de conforto diante de diferentes embates, elevando nossa autoestima através de novas experiências e emoções. É por meio da socialização que nos tornamos plenamente humanos e esse é um processo essencial para a integração do indivíduo na sua sociedade.
+
+Após passado o período de pandemia, os sistemas de saúde de todo o mundo identificaram que neste momento de alteração social e econômico resultou em um impacto significativo na vida das pessoas, principalmente na saúde mental da comunidade mundial atribuída ao distanciamento social.
+
+Sendo a promoção de eventos no país um dos setores mais atingidos no período pandêmico, a procura por lugares de boas referências que ofereçam algum tipo de experiência social tem aumentado, em paralelo tem se observado os parâmetros de prestação de serviços estabelecidos pelo crescimento tecnológico em diversas áreas, o que contribui para que as exigências do consumidor sejam as mais variadas.
+
+Analisando o contexto, projetamos esta aplicação com o intuito de integrar a extensão tecnológica aos variados estabelecimentos e ambientes que ofereçam experiências de convívio social e cultural a fim de fomentar o experimento do usuário.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A falta de divulgação, informações descontínuas e o não-incentivo cultural contribui para que eventos que agregam valor para a cidade diminuam cada vez mais.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Sugerir e exibir locais que ofereçam diversão, momentos para estudos, confraternização de familiares e amigos entre outros, promovendo uma conexão entre os ambientes de lazer e entretenimento e a sociedade.  
+Objetivos específicos 
+- Projetar funcionalidades que permitam buscas assertivas e que representem melhor o tipo de ambiente que o usuário deseja frequentar.
+- Contribuir para que os usuários tenham uma experiência prévia do ambiente físico.
+- Assegurar que os ambientes e estabelecimentos de entretenimento estejam mais próximos dos usuários.
+- Destacar referências e padrões de serviços oferecidos pelos estabelecimentos.
+- Permitir que os estabelecimentos promovam eventos posteriores com o intuito de divulgação.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O City Wave vem para proporcionar uma experiência além das redes para gerar laços sociais, despertando o interesse a todas as formas de artes, convívio e cultura, levando o usuário a novos horizontes de lazer, conhecimento e distrações, permitindo se programar e criar o hábito de frequentar diferentes ambientes e fazer novos amigos e networking, com uma aplicação intuitiva, buscas por geolocalização e interesse do usuário.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+A aplicação visa atender as pessoas de modo geral que procuram informações na web sobre pontos de interesse, seja ele turístico, de lazer ou para socializar. Que tenham o hábito de sair, viajar e/ou estão em busca de atividades diferenciadas das que habitualmente praticam.
+Ficou estabelecido que o público-alvo desta aplicação são homens e mulheres entre 18 e 50 anos, que compõem grupos de amigos, famílias e turistas que estão com a vida social ativa e buscam constantemente novos locais para frequentar e conhecer. Buscando assim, novas experiências, networkings, conhecimento cultural e de biodiversidades.

@@ -2,90 +2,147 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A identificação do problema e as soluções a serem tratadas neste projeto foram levantadas a partir das observações feitas pelos membros da equipe, onde foi analisado e avaliado os hábitos e estilos de vida dos usuários. Os dados coletados nesse processo  foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+### Helena Franco, 22 anos. 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+**Dados Principais:**
+Solteira, mora com a família na Pampulha - Belo Horizonte. Estudante de Gestão em Recursos Humanos faz estágio em um escritório que presta serviços de administração e rotinas de departamento pessoal, localizado no bairro Barro preto.
+
+**Hábitos:**
+Apesar de ter uma rotina agitada, Helena faz questão de separar momentos com a família e amigos. Helena sempre tenta se manter motivada com os estudos prezando pelo conhecimento e acredita que o desenvolvimento pessoal pode ajudar a alavancar sua carreira.
+
+**Hobbies:**
+- Sair com a família e amigos da faculdade.
+- Ouvir músicas.
+- Estar em contato com a natureza.
+- Frequentar pubs e festivais de música.
+
+**Objetivos:**
+- Desenvolver estratégias institucionais e colocar em prática programas envolvendo pessoas em todas as esferas, que incluem assuntos como liderança e motivação
+
+**Frustrações:**
+- Preço alto e locais de difícil acesso.
+
+### Roberto Gardone, 39 anos.
+
+**Dados Principais:**
+Casado, mora com sua esposa Natália no Belvedere-Belo Horizonte. Atua no mercado na área de arquitetura e urbanismo.
+
+**Hábitos:**
+Roberto costuma convidar sua esposa para eventos sociais de que participa, além disso gosta de dividir e compartilhar momentos com sua família aos finais de semana.
+
+**Hobbies:**
+- Viajar
+- Participar de eventos que trazem networking
+- Geralmente frequenta parques, restaurantes, museus e teatros.
+
+**Objetivos:**
+- Resgatar a identidade cultural na área da arquitetura e urbanismo, com vista à compreensão das relações entre as pessoas e as criações arquitetônicas e a função destas face às necessidades sociais
+
+**Frustrações:**
+- Falta de locais que prendem e chamam a atenção.
+- Lugares com muito barulho
+
+### Elizabeth Santos, 45 anos.
+
+**Dados Principais:**
+Casada, tem 2 filhos, Pedro com 10 anos de idade e Alice com 5 anos. Mora com a família no Sion - Belo Horizonte, leciona história na UFMG localizada na região da Pampulha.
+
+**Hábitos:**
+Elizabeth faz questão de se manter o mais presente possível na vida de seus filhos, participa da educação, costuma levá-los para museus, parques e eventos culturais.
+
+**Hobbies:**
+- Ouvir músicas. 
+- Ler livros.
+- Estar em contato com a natureza.
+- Praticar Yoga
+- Sair com os filhos.
+
+**Objetivos:**
+- Compartilhar conhecimentos e informações com outras pessoas.
+
+**Frustrações:**
+- Pouca divulgação dos eventos culturais.
+- Poucos lugares familiares.
+
+### Flávia Reis, 27 anos.
+
+**Dados Principais:**
+Solteira, formada em psicologia, Flávia acabou de se mudar da casa dos pais para ir morar com as amigas no centro de Betim.
+
+**Hábitos:**
+Realiza atendimentos online pela psicologia viva durante a semana, no tempo livre gosta de cozinhar e conhecer novas pessoas.
+
+**Hobbies:**
+- Testar novas receitas
+- Conversar
+- Costuma frequentar bares, restaurantes e cafeterias
+- Gosta de música ao vivo. 
+
+**Objetivos:**
+- Conhecer pessoas novas para trocar conhecimento
+- Acrescentar músicas diferentes na playlist 
+
+**Frustrações:**
+- Lugares com atendimento ruim e preço alto
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da pesquisa realizada com as personas identificadas para o projeto, foram levantadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                                          |PARA ... `MOTIVO/VALOR`                                           |
+|--------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+|Usuário do sistema  | Encontrar lugares divertidos                                                                | Para curtir a cidade.                                            |
+|Administrador       | Alterar permissões                                                                          | Permitir que possam administrar contas                           |
+|Roberto Gardone     | Participar de eventos que promovam a identidade cultural na área da arquitetura e urbanismo.| Aumentar a rede de contatos, obter referências.                  |
+|Elisabeth Santos    | Encontrar atrações culturais e ambientes familiares com mais facilidade.                    | Conhecer novos ambientes que ofereçam novas experiências.        |
+|Helena Franco       | Ter boas referências de lugares para frequentar na minha cidade.                            | Expandir o repertório cultural e poder sair mais com meus filhos.|
+|Flávia Reis         | Conhecer novos lugares com bom custo benefício e com música ao vivo.                        | provar comidas e drinks diferentes e conhecer mais artistas.     |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+A definição do escopo funcional do projeto é baseada em dois tipos de requisitos: os requisitos funcionais, que especificam as formas de interação dos usuários com o sistema, e os requisitos não funcionais, que descrevem os aspectos gerais que o sistema deve apresentar. A seguir, são apresentados esses requisitos.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| A aplicação web deverá apresentar páginas dinâmicas com atualização de locais e eventos para frequentar obtidos por meio da sua geolocalização. | ALTA | 
+|RF-002| A aplicação web deverá apresentar funcionalidades de filtragem para definir categorias de locais e eventos que o usuário deseja frequentar. | ALTA |
+|RF-003| As funcionalidades de filtro devem possibilitar ao usuário localizar os estabelecimentos por cidade e estado. | MÉDIA |
+|RF-004| A aplicação deverá apresentar um menu complementar para facilitar a navegação do usuário. | ALTA |
+|RF-005| A aplicação deverá permitir ao usuário visualizar locais de entretenimento e eventos com todos os detalhes de serviços oferecidos e avaliações. | ALTA |
+|RF-006| A aplicação deverá exibir, para cada estabelecimento ou evento, imagens do ambiente correspondente. | ALTA |
+|RF-007| A aplicação deverá permitir que o usuário realize um cadastro para acompanhamento de locais frequentados. O cadastro deverá ser categorizado. | MÉDIA |
+|RF-008| A aplicação deverá permitir adicionar os locais como favoritos. | MÉDIA |
+|RF-009| A aplicação deverá permitir verificar os locais adicionados como favoritos | BAIXA |
+|RF-0010| A aplicação deverá apresentar uma funcionalidade que permita ao usuário avaliar o local frequentado. | BAIXA |
+|RF-0011| O cadastro que se refere ao prestador deverá possibilitar a criação de eventos posteriores. | BAIXA |
+|RF-0012| A aplicação deverá estabelecer dimensões padronizadas para as imagens. | ALTA |
+|RF-0013| A aplicação deverá ranquear os estabelecimentos de acordo com o critério de avaliação de cada usuário. | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| A aplicação deverá ser hospedada em um servidor que permita realizar testagem, configurações, reparos e desenvolvimento do software. | ALTA | 
+|RNF-002| A aplicação deverá operar constantemente. |  ALTA | 
+|RNF-002| A aplicação deverá ser compatível com os principais navegadores (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
+|RNF-002| A aplicação deverá ser responsiva permitindo a visualização em diferentes dispositivos de forma adequada. |  ALTA |
+|RNF-002| O cadastro que se refere ao prestador de serviços deverá ser aprovado mediante apresentação de alvará e licença do bombeiro. |  BAIXA |
+|RNF-002| A aplicação deve permitir ao usuário avaliar o estabelecimento frequentado em no máximo 2 minutos |  MÉDIA |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+A tabela abaixo traz as restrições que restringem a realização deste projeto e que se constituem como deveres evidentes para o andamento do projeto em referência.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2023. |
+|02| A aplicação deve se restringir às linguagens básicas de programação front-end. |
+|03| A equipe deverá desenvolver o projeto com base no aprendizado obtido na universidade, não podendo terceirizar o desenvolvimento do trabalho. |

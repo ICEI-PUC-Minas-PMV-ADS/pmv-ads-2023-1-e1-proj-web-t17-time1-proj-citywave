@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# CITY WAVE - A onda da cidade
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO EIXO 1`
 
-`SEMESTRE`
+`PRIMEIRO SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O City Wave vem para proporcionar uma experiência além das redes para gerar laços sociais, despertando o interesse em todas as formas de artes, convívio e cultura, levando o usuário a novos horizontes de lazer, conhecimento, distrações, permitindo se programar, criar o hábito de frequentar diferentes ambientes, conhecer pessoas, realizar networking, com uma aplicação intuitiva, buscas por geolocalização e interesse do usuário.
 
 ## Integrantes
 
@@ -19,11 +19,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Nome completo do professor 1
+* Clóvis Lemos Tavares
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Estará hospedada em um site, futuramente disponibilizado.
 
 # Documentação
 
@@ -40,6 +40,10 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/10-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
 <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
+
+# Documentação
+
+* Link para a documentação no Docs Google: (https://docs.google.com/document/d/1gf98DPnFQuWKSHKi3-5Ughd_h-4YuS2SEdMBYHDVLF4/edit?usp=sharing)
 
 # Hospedagem
 

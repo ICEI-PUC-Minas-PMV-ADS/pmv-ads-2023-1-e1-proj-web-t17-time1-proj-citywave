@@ -11,7 +11,6 @@ A metodologia contempla as definições de ferramentas utilizadas pela equipe ta
 |Projeto de interface e Wireframes| MarvelApp| (https://marvelapp.com/prototype/6aed7hi)|
 |Gerenciamento do projeto| GitHub| (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/348)|
 
-A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 ## Controle de Versão
 
@@ -38,6 +37,8 @@ etiquetas:
 
 ### Divisão de Papéis
 
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
 ### A equipe está organizada da seguinte maneira:
 - Scrum Master: Josué Almeida;
 - Product Owner: Guilherme Bourguignon;
@@ -51,10 +52,11 @@ etiquetas:
 ### Processo
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project, estruturado com as seguintes listas:
-> - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog.
-Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+> - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 > - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
-> - Done: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+> - In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá para ser desenvolvida ativamente.
+> - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
 
 ### Ferramentas
 

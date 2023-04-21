@@ -33,7 +33,7 @@ Figura 4 - Home Page
 ### Perfil Estabelecimento
 A página de perfil do estabelecimento permite que o prestador inclua as fotos do local, informe seu endereço, telefone, uma breve descrição sobre seu estabelecimento e escolha as categorias que gostaria de ser avaliado.
 
-![HomePage](img/perfil_estabelecimento.png)
+![HomePage](perfil_estabelecimento.png)
 
 Figura 4 - Página perfil do estabelecimento
 

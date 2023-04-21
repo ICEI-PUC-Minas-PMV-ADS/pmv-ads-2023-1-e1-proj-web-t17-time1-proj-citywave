@@ -35,7 +35,7 @@ A página de perfil do estabelecimento permite que o prestador inclua as fotos d
 
 ![HomePage](img/perfil_estabelecimento_vs1.png)
 
-Figura 4 - Página perfil do estabelecimento
+Figura 5 - Página perfil do estabelecimento
 
 ### Resultado Pesquisa 
 A tela mostra o resultado de uma pesquisa de estabelecimentos de acordo com os respectivos parâmetros.

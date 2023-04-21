@@ -14,15 +14,6 @@ Os componentes que fazem parte da solução são apresentados na Figura XX.
 ![Diagrama de Componentes](img/diagrama_componente.png)
 <center>Figura XX - Arquitetura da Solução</center>
 
-A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 A solução implementada é apresentada na arquitetura de microservices o padrão se baseia em múltiplos serviços e componentes para desenvolver uma estrutura modular.
 - **Browser** - Programa que nos permite navegar pela aplicação Web.
   - **Páginas Web** - Conjunto de arquivos em HTML, CSS, JavaScript e imagens que é renderizado ("mostrado") por um browser que implementam as funcionalidades dos sistemas.

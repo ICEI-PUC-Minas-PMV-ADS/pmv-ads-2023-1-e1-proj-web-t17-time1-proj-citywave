@@ -1,7 +1,6 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
+Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte do ambiente de hospedagem da solução.
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de componentes
@@ -12,7 +11,7 @@ Exemplo:
 
 Os componentes que fazem parte da solução são apresentados na Figura XX.
 
-![Diagrama de Componentes](img/componentes.png)
+![Diagrama de Componentes](img/diagrama_componente.png)
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
@@ -24,10 +23,12 @@ A solução implementada conta com os seguintes módulos:
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
-
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
+A solução implementada é apresentada na arquitetura de microservices o padrão se baseia em múltiplos serviços e componentes para desenvolver uma estrutura modular.
+- **Browser** - Programa que nos permite navegar pela aplicação Web.
+  - **Páginas Web** - Conjunto de arquivos em HTML, CSS, JavaScript e imagens que é renderizado ("mostrado") por um browser que implementam as funcionalidades dos sistemas.
+  - **API Gateway** - Ferramenta de gerenciamento de interfaces de programação de aplicações (APIs) na Web.
+- **Service Discovery** - Serviço que tem a capacidade de localizar redes automaticamente sem a necessidade de ajustar processos de configuração.
+- **Banco de Dados(Oracle)** - Sistema Gerenciador de Banco de Dados
 
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 

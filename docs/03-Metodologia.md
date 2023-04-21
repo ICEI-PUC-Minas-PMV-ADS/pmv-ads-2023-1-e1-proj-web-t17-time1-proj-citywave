@@ -40,12 +40,12 @@ etiquetas:
 ### A equipe está organizada da seguinte maneira:
 - Scrum Master: Josué Almeida;
 - Product Owner: Guilherme Bourguignon;
-Equipe de Desenvolvimento
-- Pedro Lemos;
-- Anna Gerassimova;
-- Luis Eduardo;
-Equipe de Design
-- Mariane Oliveira;
+- Equipe de Desenvolvimento
+  - Pedro Lemos;
+  - Anna Gerassimova;
+  - Luis Eduardo;
+-Equipe de Design
+  - Mariane Oliveira;
 
 ### Processo
 

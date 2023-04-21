@@ -8,7 +8,7 @@ A seguir apresentamos a visão geral da interação do usuário pelas telas do s
 ## User Flow
 No diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente MarvelApp do projeto](https://marvelapp.com/prototype/6aed7hi).
 
-![FIGURA X](img/userflowcitywave.png)
+![FIGURA X](img/FluxoUsuario_CityWave_vs1.png)
 
 Figura 2 - UserFlow
 

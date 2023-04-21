@@ -3,24 +3,24 @@
 
 O desenho da interface do sistema, estabelece foco em questões como a interação com o usuário, apresentar o conteúdo ao usuário final, permitir sua navegação através dos seus segmentos. Desta forma, o projeto tem um padrão visual modular em todas as telas que serão projetadas para funcionamento em desktops e dispositivos móveis.
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+A seguir apresentamos a visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
 ## User Flow
 
 ![FIGURA X](img/userflowcitywave.png)
 
-NO diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente MarvelApp do projeto](https://marvelapp.com/prototype/6aed7hi).
+NO diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente MarvelApp do projeto](https://marvelapp.com/prototype/6aed7hi).
 
 ## Wireframes
 
-Conforme fluxo de usuário do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+Conforme fluxo de usuário do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 3. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 - Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
 - Conteúdo - apresenta o conteúdo da tela em questão;
 - Rodapé - apresenta os elementos de navegação, políticas de privacidade, logo e mídias sociais da aplicação.
 
 ![EstruturaPadrao](img/estrutura.png)
 
-Figura - Estrutura Padrão
+Figura 3 - Estrutura Padrão
 
 ### Home Page
 A tela de Home Page (inicial) é a primeira tela ao entrar no site, onde o usuário pode ter uma visão geral da aplicação, as principais informações e realizar a sua entrada ou criar uma conta.

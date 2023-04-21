@@ -8,10 +8,10 @@ Os componentes que fazem parte da solução são apresentados na figura que se s
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura 14.
 
 ![Diagrama de Componentes](img/diagrama_componente.png)
-<center>Figura XX - Arquitetura da Solução</center>
+<center>Figura 14 - Arquitetura da Solução</center>
 
 A solução implementada é apresentada na arquitetura de microservices o padrão se baseia em múltiplos serviços e componentes para desenvolver uma estrutura modular.
 - **Browser** - Programa que nos permite navegar pela aplicação Web.

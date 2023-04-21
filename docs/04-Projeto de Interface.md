@@ -1,6 +1,8 @@
 
 # Projeto de Interface
 
+O desenho da interface do sistema, estabelece foco em questões como a interação com o usuário, apresentar o conteúdo ao usuário final, permitir sua navegação através dos seus segmentos. Desta forma, o projeto tem um padrão visual modular em todas as telas que serão projetadas para funcionamento em desktops e dispositivos móveis.
+
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
 ## User Flow

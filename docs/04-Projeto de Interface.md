@@ -84,7 +84,7 @@ Uma vez que o usuário tenha efetuado o cadastro no site, ele terá acesso a um 
 Figura 11 - Perfil do Usuário
 
 ### Cadastro Estabelecimento
-Tela que mostra todas as informações necessárias para o cadastro de um estabelecimento.
+A página de cadastro do estabelecimento parceiro permite com que o prestador registre-se no site fornecendo seus dados comerciais para que posteriormente, possa divulgar seu local na aplicação e promover eventos.
 
 ![HomePage](img/paginacadastro_estabelecimento.png)
 

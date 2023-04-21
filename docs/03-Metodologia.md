@@ -69,5 +69,5 @@ As ferramentas empregadas no projeto são:
 O Visual Studio Code foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação, utilizadas, Teams e Whatsapp, possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos o MarvelApp por melhor captar as necessidades da nossa solução.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos é apresentado, no estado atual, na Figura X e está disponível através da URL:
-<img> src https://drive.google.com/file/d/1XFg97NH9IXpcnS_Esff2FJtWKLIPfcpF/view?usp=share_link
+> - <img src = "https://drive.google.com/file/d/1XFg97NH9IXpcnS_Esff2FJtWKLIPfcpF/view?usp=share_link"
 > - Figura 1 - Tela do kanban utilizada pelo grupo

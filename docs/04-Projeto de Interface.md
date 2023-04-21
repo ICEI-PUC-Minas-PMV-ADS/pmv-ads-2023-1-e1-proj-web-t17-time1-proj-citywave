@@ -6,10 +6,11 @@ O desenho da interface do sistema, estabelece foco em questões como a interaç�
 A seguir apresentamos a visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
 ## User Flow
+NO diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente MarvelApp do projeto](https://marvelapp.com/prototype/6aed7hi).
 
 ![FIGURA X](img/userflowcitywave.png)
 
-NO diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente MarvelApp do projeto](https://marvelapp.com/prototype/6aed7hi).
+Figura 2 - UserFlow
 
 ## Wireframes
 
@@ -27,21 +28,22 @@ A tela de Home Page (inicial) é a primeira tela ao entrar no site, onde o usuá
 
 ![HomePage](img/homepage.png)
 
-Figura - Home Page
+Figura 4 - Home Page
 
-### Login
-A tela de login possibilita ao usuário acesso ao seu perfil na aplicação, realizar um novo cadastro manual ou se cadastrar através da integração com o google e realizar alteração de senha.
+### Resultado Pesquisa 
+A tela mostra o resultado de uma pesquisa de estabelecimentos de acordo com os respectivos parâmetros.
 
-![HomePage](img/telalogin.png)
 
-Figura - Tela de Login
+![ResultadoPesquisa](https://user-images.githubusercontent.com/127361540/233685060-3a82c680-27d0-4b3f-ae14-beea6358edba.png)
 
-### Identificação do usuário
-A tela de identificação de usuário interage como filtragem e direcionamento de modo que identifique o seu perfil de cadastro.
+Figura 5 - Resultado Pesquisa
 
-![HomePage](img/quemevoce.png)
+### Página do Estabelecimento 
+A tela da página do estabelecimento dispõe de todas as informações que o usuário busca de um determinado lugar, como fotos, endereço e telefones, e também as notas de cada setor do estabelecimento, coletadas através do sistema de avaliações da própria aplicação.
 
-Figura - Identificação do usuário
+![HomePage](img/estabelecimento.png)
+
+Figura 6 - Página do Estabelecimento
 
 ### Cadastro Usuário
 A página de cadastro permite com que o usuário registre-se no site fornecendo o seu nome completo, e-mail e senha de sua escolha.
@@ -64,19 +66,20 @@ A tela que se segue apresenta como a integração com o google irá interagir co
 
 Figura - Pop up Google
 
-### Resultado Pesquisa
-A tela mostra o resultado de uma pesquisa de estabelecimentos de acordo com os respectivos parâmetros.
+### Login
+A tela de login possibilita ao usuário acesso ao seu perfil na aplicação, realizar um novo cadastro manual ou se cadastrar através da integração com o google e realizar alteração de senha.
 
-![HomePage](img/telapesquisa.png)
+![HomePage](img/telalogin.png)
 
-Figura - Resultado Pesquisa
+Figura - Tela de Login
 
-### Página do Estabelecimento
-A tela da página do estabelecimento dispõe de todas as informações que o usuário busca de um determinado lugar, como fotos, endereço e telefones, e também as notas de cada setor do estabelecimento, coletadas através do sistema de avaliações da própria aplicação.
+### Identificação do usuário
 
-![HomePage](img/estabelecimento.png)
+A tela de identificação de usuário interage como filtragem e direcionamento de modo que identifique o seu perfil de cadastro.
 
-Figura - Página do Estabelecimento
+![HomePage](img/quemevoce.png)
+
+Figura - Identificação do usuário
 
 ### Perfil do Usuário
 Uma vez que o usuário tenha efetuado o cadastro no site, ele terá acesso a um perfil pessoal exclusivo, no qual poderá fornecer informações adicionais sobre si mesmo, como endereço e número de telefone. Além disso, será possível acrescentar uma foto de perfil para tornar a sua conta mais personalizada. Caso seja necessário, o usuário também poderá alterar a sua senha de acesso através do seu perfil.

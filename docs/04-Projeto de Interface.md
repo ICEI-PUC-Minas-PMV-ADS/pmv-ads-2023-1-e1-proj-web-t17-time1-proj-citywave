@@ -45,33 +45,13 @@ A tela da página do estabelecimento dispõe de todas as informações que o usu
 
 Figura 6 - Página do Estabelecimento
 
-### Cadastro Usuário
-A página de cadastro permite com que o usuário registre-se no site fornecendo o seu nome completo, e-mail e senha de sua escolha.
-
-![HomePage](img/telacadastro.png)
-
-Figura - Cadastro Usuário
-
-### Cadastro Estabelecimento
-Tela que mostra todas as informações necessárias para o cadastro de um estabelecimento.
-
-![HomePage](img/paginacadastro_estabelecimento.png)
-
-Figura - Cadastro Estabelecimento
-
-### PopUp Google
-A tela que se segue apresenta como a integração com o google irá interagir com o usuário através de uma janela pop-up possibilitando a aplicação web acesso aos dados do usuário para realizar seu cadastro.
-
-![HomePage](img/popupgoogle.png)
-
-Figura - Pop up Google
-
 ### Login
+
 A tela de login possibilita ao usuário acesso ao seu perfil na aplicação, realizar um novo cadastro manual ou se cadastrar através da integração com o google e realizar alteração de senha.
 
 ![HomePage](img/telalogin.png)
 
-Figura - Tela de Login
+Figura 7 - Tela de Login
 
 ### Identificação do usuário
 
@@ -79,18 +59,35 @@ A tela de identificação de usuário interage como filtragem e direcionamento d
 
 ![HomePage](img/quemevoce.png)
 
-Figura - Identificação do usuário
+Figura 8 - Identificação do usuário
+
+### Cadastro Usuário
+
+A página de cadastro permite com que o usuário registre-se no site fornecendo o seu nome completo, e-mail e senha de sua escolha.
+
+![HomePage](img/telacadastro.png)
+
+Figura 9 - Cadastro Usuário
 
 ### Perfil do Usuário
 Uma vez que o usuário tenha efetuado o cadastro no site, ele terá acesso a um perfil pessoal exclusivo, no qual poderá fornecer informações adicionais sobre si mesmo, como endereço e número de telefone. Além disso, será possível acrescentar uma foto de perfil para tornar a sua conta mais personalizada. Caso seja necessário, o usuário também poderá alterar a sua senha de acesso através do seu perfil.
 
 ![HomePage](img/perfilusuario.png)
 
-Figura - Perfil do Usuário
+Figura 10 - Perfil do Usuário
+
+### Cadastro Estabelecimento
+Tela que mostra todas as informações necessárias para o cadastro de um estabelecimento.
+
+![HomePage](img/paginacadastro_estabelecimento.png)
+
+Figura 11 - Cadastro Estabelecimento
+
 
 ### Tela institucional
-Tela que mostra toda a parte institucional do nosso projeto, missão, políticas e etc.
+
+A página apresenta a nossa história, motivação, objetivos, políticas e normas, ou seja, é o espaço da aplicação destinado para passar confiança aos visitantes.
 
 ![HomePage](img/tela_institucional.png)
 
-Figura - Tela Institucional
+Figura 12 - Tela Institucional

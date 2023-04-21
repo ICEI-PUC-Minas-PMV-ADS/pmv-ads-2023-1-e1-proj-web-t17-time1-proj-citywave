@@ -6,7 +6,7 @@ O desenho da interface do sistema, estabelece foco em questões como a interaç�
 A seguir apresentamos a visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
 ## User Flow
-No diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Canva do projeto]([(https://www.canva.com/design/DAFgwhnu5KQ/sNXPceOH12GgEEJOEF00Jg/view?utm_content=DAFgwhnu5KQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)].
+No diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Canva do projeto](https://www.canva.com/design/DAFgwhnu5KQ/sNXPceOH12GgEEJOEF00Jg/view?utm_content=DAFgwhnu5KQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 
 ![FIGURA X](img/FluxoUsuario_CityWave_vs1.png)
 

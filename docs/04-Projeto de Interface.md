@@ -86,7 +86,7 @@ Figura 11 - Cadastro Estabelecimento
 ### Perfil Estabelecimento
 A página de perfil do estabelecimento permite que o prestador inclua as fotos do local, informe seu endereço, telefone, uma breve descrição sobre seu estabelecimento e escolha as categorias que gostaria de ser avaliado.
 
-![HomePage](img/perfil_estabelecimento_vs1.png)
+![HomePage](img/perfil_estabelecimento_vs2.png)
 
 Figura 12 - Página perfil do estabelecimento
 

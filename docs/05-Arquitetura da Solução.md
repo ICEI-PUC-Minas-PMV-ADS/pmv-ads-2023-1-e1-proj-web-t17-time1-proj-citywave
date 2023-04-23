@@ -6,10 +6,6 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 
 Os componentes que fazem parte da solução são apresentados na figura que se segue.
 
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura 14.
-
 ![Diagrama de Componentes](img/diagrama_componente.png)
 
 <center>Figura 14 - Arquitetura da Solução</center>

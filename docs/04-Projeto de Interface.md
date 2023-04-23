@@ -8,7 +8,7 @@ A seguir apresentamos a visão geral da interação do usuário pelas telas do s
 ## User Flow
 No diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Canva do projeto](https://www.canva.com/design/DAFgwhnu5KQ/sNXPceOH12GgEEJOEF00Jg/view?utm_content=DAFgwhnu5KQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 
-![FIGURA X](img/User Flow.png)
+![FIGURA X](img/User_Flow.png)
 
 Figura 2 - UserFlow
 

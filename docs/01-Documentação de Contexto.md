@@ -29,6 +29,6 @@ O City Wave apresenta qual a onda da cidade e proporciona uma experiência além
 
 ## Público-Alvo
 
-A aplicação visa atender as pessoas de modo geral que procuram informações na web sobre pontos de interesse, seja ele turístico, de lazer ou para socializar. Que tenham o hábito de sair, viajar e/ou estão em busca de atividades diferenciadas das que habitualmente praticam.
+A aplicação visa atender as pessoas de modo geral que procuram informações na web sobre pontos de interesse, seja ele turístico, de lazer ou para socializar. Que tenham o hábito de sair, viajar e estão em busca de atividades diferenciadas das que habitualmente praticam.
 
 Ficou estabelecido que o público-alvo desta aplicação são homens e mulheres entre 18 e 50 anos, que compõem grupos de amigos, famílias e turistas que estão com a vida social ativa e buscam constantemente novos locais para frequentar e conhecer. Buscando assim, novas experiências, networkings, conhecimento cultural e de biodiversidades.

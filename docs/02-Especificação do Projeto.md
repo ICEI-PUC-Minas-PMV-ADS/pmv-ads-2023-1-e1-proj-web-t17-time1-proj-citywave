@@ -122,12 +122,14 @@ A tabela abaixo expõe os requisitos do projeto, destacando a ordem de importân
 |RF-005 | A aplicação deverá exibir, para cada estabelecimento ou evento, imagens do ambiente correspondente. | ALTA |
 |RF-006| A aplicação deverá permitir que o usuário realize um cadastro para acompanhamento de locais frequentados. O cadastro deverá ser categorizado para o consumidor e o prestador de serviços. | MÉDIA |
 |RF-007| A aplicação deverá permitir adicionar os locais como favoritos. | MÉDIA |
-|RF-008| A aplicação deverá permitir verificar os locais adicionados como favoritos | BAIXA |
+|RF-008| A aplicação deverá permitir verificar os locais adicionados como favoritos | MÉDIA |
 |RF-009| A aplicação deverá apresentar uma funcionalidade que permita ao usuário avaliar o local frequentado. | BAIXA |
-|RF-010| A aplicação deverá estabelecer dimensões padronizadas para as imagens. | ALTA |
+|RF-010| A aplicação deverá estabelecer dimensões padronizadas para as imagens. | BAIXA |
 |RF-011| A aplicação deverá ranquear os estabelecimentos de acordo com o critério de melhor avaliação. | MÉDIA |
 
 ### Requisitos não Funcionais
+
+A tabela abaixo expõe os requisitos não funcionais que o projeto deverá atender. 
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|

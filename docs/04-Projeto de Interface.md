@@ -6,6 +6,7 @@ O desenho da interface do sistema, estabelece foco em questões como a interaç�
 A seguir apresentamos a visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
 ## User Flow
+
 O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente MarvelApp](https://marvelapp.com/prototype/6aed7hi)
 
 ![UserFlowCityWave (8)](https://user-images.githubusercontent.com/127361540/233861201-c436e49b-59bf-4797-9b16-2f12e1fe8a53.png)
@@ -25,6 +26,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 Figura 3 - Estrutura Padrão
 
 ### Home Page
+
 A tela de Home Page (inicial) é a primeira tela ao entrar no site, onde o usuário pode ter uma visão geral da aplicação, as principais informações e realizar a sua entrada ou criar uma conta.
 
 ![HomePage](https://user-images.githubusercontent.com/127361540/233861254-1756227e-f614-4b7c-a69d-d9da81d82c50.png)
@@ -32,6 +34,7 @@ A tela de Home Page (inicial) é a primeira tela ao entrar no site, onde o usuá
 Figura 4 - Home Page
 
 ### Resultado Pesquisa 
+
 A tela mostra o resultado de uma pesquisa de estabelecimentos de acordo com os respectivos parâmetros.
 
 
@@ -40,6 +43,7 @@ A tela mostra o resultado de uma pesquisa de estabelecimentos de acordo com os r
 Figura 5 - Resultado Pesquisa
 
 ### Página do Estabelecimento 
+
 A tela da página do estabelecimento dispõe de todas as informações que o usuário busca de um determinado lugar, como fotos, endereço e telefones, e também as notas de cada setor do estabelecimento, coletadas através do sistema de avaliações da própria aplicação.
 
 ![PagEstabelecimentoSelecionado](https://user-images.githubusercontent.com/127361540/233861354-001339f6-e4df-4745-9d9d-776ee9b72a0d.png)
@@ -71,6 +75,7 @@ A página de cadastro permite com que o usuário registre-se no site fornecendo 
 Figura 9 - Cadastro do Usuário
 
 ### Perfil do Usuário
+
 Uma vez que o usuário tenha efetuado o cadastro no site, ele terá acesso a um perfil pessoal exclusivo, no qual poderá fornecer informações adicionais sobre si mesmo, como endereço e número de telefone. Além disso, será possível acrescentar uma foto de perfil para tornar a sua conta mais personalizada. Caso seja necessário, o usuário também poderá alterar a sua senha de acesso através do seu perfil.
 
 ![ProfilePageUser](https://user-images.githubusercontent.com/127361540/233861616-77269641-cf1b-478b-99a4-d4b9a7181bd9.png)
@@ -78,13 +83,15 @@ Uma vez que o usuário tenha efetuado o cadastro no site, ele terá acesso a um 
 Figura 10 - Perfil do Usuário
 
 ### Cadastro Estabelecimento
-A página de cadastro do estabelecimento parceiro permite com que o prestador registre-se no site fornecendo seus dados comerciais para que posteriormente, possa divulgar seu local na aplicação e promover eventos.
+
+A página de cadastro do estabelecimento parceiro permite com que o prestador registre-se no site fornecendo seus dados comerciais para que posteriormente, possa divulgar seu local na aplicação.
 
 ![CadastroEstabelecimento](img/cadastro_estabelecimento_vs3.png)
 
 Figura 11 - Cadastro Estabelecimento
 
 ### Perfil Estabelecimento
+
 A página de perfil do estabelecimento permite que o prestador inclua as fotos do local, informe seu endereço, telefone, uma breve descrição sobre seu estabelecimento e escolha as categorias que gostaria de ser avaliado.
 
 ![PerfilEstabelecimneto](img/perfil_estabelecimento_vs2.png)

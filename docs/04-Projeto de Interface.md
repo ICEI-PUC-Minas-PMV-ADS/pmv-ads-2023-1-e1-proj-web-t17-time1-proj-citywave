@@ -72,7 +72,7 @@ Figura 9 - Cadastro Usuário
 ### Perfil do Usuário
 Uma vez que o usuário tenha efetuado o cadastro no site, ele terá acesso a um perfil pessoal exclusivo, no qual poderá fornecer informações adicionais sobre si mesmo, como endereço e número de telefone. Além disso, será possível acrescentar uma foto de perfil para tornar a sua conta mais personalizada. Caso seja necessário, o usuário também poderá alterar a sua senha de acesso através do seu perfil.
 
-![HomePage](img/perfilusuario.png)
+![HomePage](img/perfil_usuario_vs2.png)
 
 Figura 10 - Perfil do Usuário
 

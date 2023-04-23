@@ -97,45 +97,45 @@ A partir da pesquisa realizada com as personas identificadas para o projeto, for
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                                          |PARA ... `MOTIVO/VALOR`                                           |
 |--------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-|Usuário do sistema  | Encontrar lugares divertidos                                                                | Para curtir a cidade.                                            |
-|Administrador       | Alterar permissões                                                                          | Permitir que possam administrar contas                           |
-|Roberto Gardone     | Participar de eventos que promovam a identidade cultural na área da arquitetura e urbanismo.| Aumentar a rede de contatos, obter referências.                  |
-|Elisabeth Santos    | Encontrar atrações culturais e ambientes familiares com mais facilidade.                    | Conhecer novos ambientes que ofereçam novas experiências.        |
-|Helena Franco       | Ter boas referências de lugares para frequentar na minha cidade.                            | Expandir o repertório cultural e poder sair mais com meus filhos.|
-|Flávia Reis         | Conhecer novos lugares com bom custo benefício e com música ao vivo.                        | provar comidas e drinks diferentes e conhecer mais artistas.     |
+| Roberto Gardone  | Participar de eventos que promovam a identidade cultural na área da arquitetura e urbanismo.| Aumentar a rede de contatos, obter referências de projetos arquitetônicos.|
+| Roberto Gardone  | Ter em um único lugar todos os estabelecimentos favoritos e ranqueados.  |Facilitar a busca dos locais de acordo com o gosto e/ou hobbie.|
+| Helena Franco    | Ter boas referências de lugares para frequentar na minha cidade.         | Conhecer novos ambientes que ofereçam novas experiências.|
+| Elisabeth Santos | Encontrar atrações culturais e ambientes familiares com mais facilidade. | Expandir o repertório cultural e poder sair mais com meus filhos.|
+| Flávia Reis      | Conhecer novos lugares com bom custo benefício e com música ao vivo.     | Provar comidas e drinks diferentes e conhecer novos artistas.|
+| Helena Franco | Verificar se o local presta um serviço bom pela descrição e avaliações de outras pessoas.| Para ajudar na escolha do ambiente ideal e evitar frustrações. |
+
+
 
 ## Requisitos
 
 A definição do escopo funcional do projeto é baseada em dois tipos de requisitos: os requisitos funcionais, que especificam as formas de interação dos usuários com o sistema, e os requisitos não funcionais, que descrevem os aspectos gerais que o sistema deve apresentar. A seguir, são apresentados esses requisitos.
 
 ### Requisitos Funcionais
+A tabela abaixo expõe os requisitos do projeto, destacando a ordem de importância na qual elas devem ser disponibilizadas.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação web deverá apresentar páginas dinâmicas com atualização de locais e eventos para frequentar obtidos por meio da sua geolocalização. | ALTA | 
-|RF-002| A aplicação web deverá apresentar funcionalidades de filtragem para definir categorias de locais e eventos que o usuário deseja frequentar. | ALTA |
-|RF-003| As funcionalidades de filtro devem possibilitar ao usuário localizar os estabelecimentos por cidade e estado. | MÉDIA |
-|RF-004| A aplicação deverá apresentar um menu complementar para facilitar a navegação do usuário. | ALTA |
-|RF-005| A aplicação deverá permitir ao usuário visualizar locais de entretenimento e eventos com todos os detalhes de serviços oferecidos e avaliações. | ALTA |
-|RF-006| A aplicação deverá exibir, para cada estabelecimento ou evento, imagens do ambiente correspondente. | ALTA |
-|RF-007| A aplicação deverá permitir que o usuário realize um cadastro para acompanhamento de locais frequentados. O cadastro deverá ser categorizado. | MÉDIA |
-|RF-008| A aplicação deverá permitir adicionar os locais como favoritos. | MÉDIA |
-|RF-009| A aplicação deverá permitir verificar os locais adicionados como favoritos | BAIXA |
-|RF-0010| A aplicação deverá apresentar uma funcionalidade que permita ao usuário avaliar o local frequentado. | BAIXA |
-|RF-0011| O cadastro que se refere ao prestador deverá possibilitar a criação de eventos posteriores. | BAIXA |
-|RF-0012| A aplicação deverá estabelecer dimensões padronizadas para as imagens. | ALTA |
-|RF-0013| A aplicação deverá ranquear os estabelecimentos de acordo com o critério de avaliação de cada usuário. | MÉDIA |
+|RF-002 | A aplicação web deverá apresentar funcionalidades de filtragem para definir categorias de locais e eventos que o usuário deseja frequentar. | ALTA |
+|RF-003 | As funcionalidades de filtro devem possibilitar ao usuário localizar os estabelecimentos por cidade e estado. | MÉDIA |
+|RF-004 | A aplicação deverá permitir ao usuário visualizar locais de entretenimento e eventos com todos os detalhes de serviços oferecidos e avaliações associadas. |ALTA |
+|RF-005 | A aplicação deverá exibir, para cada estabelecimento ou evento, imagens do ambiente correspondente. | ALTA |
+|RF-006| A aplicação deverá permitir que o usuário realize um cadastro para acompanhamento de locais frequentados. O cadastro deverá ser categorizado para o consumidor e o prestador de serviços. | MÉDIA |
+|RF-007| A aplicação deverá permitir adicionar os locais como favoritos. | MÉDIA |
+|RF-008| A aplicação deverá permitir verificar os locais adicionados como favoritos | BAIXA |
+|RF-009| A aplicação deverá apresentar uma funcionalidade que permita ao usuário avaliar o local frequentado. | BAIXA |
+|RF-010| A aplicação deverá estabelecer dimensões padronizadas para as imagens. | ALTA |
+|RF-011| A aplicação deverá ranquear os estabelecimentos de acordo com o critério de melhor avaliação. | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deverá ser hospedada em um servidor que permita realizar testagem, configurações, reparos e desenvolvimento do software. | ALTA | 
-|RNF-002| A aplicação deverá operar constantemente. |  ALTA | 
-|RNF-002| A aplicação deverá ser compatível com os principais navegadores (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
-|RNF-002| A aplicação deverá ser responsiva permitindo a visualização em diferentes dispositivos de forma adequada. |  ALTA |
-|RNF-002| O cadastro que se refere ao prestador de serviços deverá ser aprovado mediante apresentação de alvará e licença do bombeiro. |  BAIXA |
-|RNF-002| A aplicação deve permitir ao usuário avaliar o estabelecimento frequentado em no máximo 2 minutos |  MÉDIA |
+|RNF-002| A aplicação deverá ter alta disponibilidade. |  ALTA | 
+|RNF-003| A aplicação deverá apresentar um menu complementar para facilitar a navegação do usuário.| ALTA |
+|RNF-004| A aplicação deverá ser compatível com os principais navegadores (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
+|RNF-005| A aplicação deverá ser responsiva permitindo a visualização em diferentes dispositivos de forma adequada. |  ALTA |
 
 ## Restrições
 
@@ -143,6 +143,6 @@ A tabela abaixo traz as restrições que restringem a realização deste projeto
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2023. |
-|02| A aplicação deve se restringir às linguagens básicas de programação front-end. |
-|03| A equipe deverá desenvolver o projeto com base no aprendizado obtido na universidade, não podendo terceirizar o desenvolvimento do trabalho. |
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2023. |
+|RE-02| A aplicação deve se restringir às linguagens básicas de programação front-end. |
+|RE-03| A equipe deverá desenvolver o projeto com base no aprendizado obtido na universidade, não podendo terceirizar o desenvolvimento do trabalho. |

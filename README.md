@@ -15,7 +15,6 @@ O City Wave vem para proporcionar uma experiência além das redes para gerar la
 * Luís Eduardo Vieira Chaves Paiva
 * Anna Gerassimova
 * Mariane de Oliveira Duarte
-* Guilherme Pereira de Abreu Bourguignon
 
 ## Orientador
 

@@ -41,9 +41,8 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 ### A equipe está organizada da seguinte maneira:
 - Scrum Master: Josué Almeida;
-- Product Owner: Guilherme Bourguignon;
+- Product Owner: Pedro Lemos;
 - Equipe de Desenvolvimento
-  - Pedro Lemos;
   - Anna Gerassimova;
   - Luis Eduardo;
 - Equipe de Design

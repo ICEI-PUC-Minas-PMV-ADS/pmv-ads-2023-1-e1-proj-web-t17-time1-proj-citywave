@@ -11,7 +11,7 @@ O City Wave vem para proporcionar uma experiência além das redes para gerar la
 ## Integrantes
 
 * Pedro Henrique Nascimento Lemos
-* Josue Batista de Almeida
+* Josué Batista de Almeida
 * Luís Eduardo Vieira Chaves Paiva
 * Anna Gerassimova
 * Mariane de Oliveira Duarte

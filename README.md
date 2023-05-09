@@ -42,7 +42,7 @@ Estará hospedada em um site, futuramente disponibilizado.
 
 # Documentação
 
-* Link para a documentação no Docs Google: <a href="(https://docs.google.com/document/d/1gf98DPnFQuWKSHKi3-5Ughd_h-4YuS2SEdMBYHDVLF4/edit?usp=sharing)"></a>
+* Link para a documentação no Docs Google: <a href="(https://docs.google.com/document/d/1gf98DPnFQuWKSHKi3-5Ughd_h-4YuS2SEdMBYHDVLF4/edit?usp=sharing)"> Docs Google</a>
 
 # Hospedagem
 

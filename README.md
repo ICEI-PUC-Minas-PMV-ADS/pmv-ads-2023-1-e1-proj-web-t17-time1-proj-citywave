@@ -42,11 +42,11 @@ Estará hospedada em um site, futuramente disponibilizado.
 
 # Documentação
 
-* [Link para a documentação no Docs Google: ](https://docs.google.com/document/d/1gf98DPnFQuWKSHKi3-5Ughd_h-4YuS2SEdMBYHDVLF4/edit?usp=sharing)
+* [Link para a documentação no Docs Google](https://docs.google.com/document/d/1gf98DPnFQuWKSHKi3-5Ughd_h-4YuS2SEdMBYHDVLF4/edit?usp=sharing)
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* [Github Pages - City Wave](https://josuewl.github.io/CityWaveTemplate/#) 
 
 # Armazenamento do Código-Fonte
 

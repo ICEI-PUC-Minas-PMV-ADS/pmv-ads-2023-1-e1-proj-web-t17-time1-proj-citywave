@@ -1,5 +1,6 @@
 
 # Metodologia
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
@@ -10,7 +11,6 @@
 |Projeto de interface e Wireframes| MarvelApp| (https://marvelapp.com/prototype/6aed7hi)|
 |Gerenciamento do projeto| GitHub| (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/348)|
 
-A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 ## Controle de Versão
 
@@ -37,23 +37,25 @@ etiquetas:
 
 ### Divisão de Papéis
 
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
 ### A equipe está organizada da seguinte maneira:
 - Scrum Master: Josué Almeida;
-- Product Owner: Guilherme Bourguignon;
-Equipe de Desenvolvimento
-- Pedro Lemos;
-- Anna Gerassimova;
-- Luis Eduardo;
-Equipe de Design
-- Mariane Oliveira;
+- Product Owner: Pedro Lemos;
+- Equipe de Desenvolvimento
+  - Anna Gerassimova;
+  - Luis Eduardo;
+- Equipe de Design
+  - Mariane Oliveira;
 
 ### Processo
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project, estruturado com as seguintes listas:
-> - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog.
-Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+> - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 > - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
-> - Done: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+> - In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá para ser desenvolvida ativamente.
+> - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
 
 ### Ferramentas
 
@@ -65,6 +67,7 @@ As ferramentas empregadas no projeto são:
 
 O Visual Studio Code foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação, utilizadas, Teams e Whatsapp, possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos o MarvelApp por melhor captar as necessidades da nossa solução.
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos é apresentado, no estado atual, na Figura X e está disponível através da URL: 
-> - (img/backlog.png)
-> - Figura X.
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos é apresentado, no estado atual, na Figura X e está disponível através da URL: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/348
+
+> ![QuadroKanban](https://user-images.githubusercontent.com/127361540/233671501-0cf3a8a5-2369-457d-956a-8c21dad04891.png)
+> - Figura 1 - Tela do kanban utilizada pelo grupo

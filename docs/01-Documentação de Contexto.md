@@ -10,11 +10,12 @@ Analisando o contexto, projetamos esta aplicação com o intuito de integrar a e
 
 
 ## Problema
-A falta de divulgação, informações descontínuas e o não-incentivo cultural contribui para que eventos que agregam valor para a cidade diminuam cada vez mais.
+A falta de divulgação, informações descontínuas e o não incentivo cultural contribui para que eventos que agregam valor para a cidade diminuam cada vez mais.
 
 ## Objetivos
 
-Sugerir e exibir locais que ofereçam diversão, momentos para estudos, confraternização de familiares e amigos entre outros, promovendo uma conexão entre os ambientes de lazer e entretenimento e a sociedade.  
+Sugerir e exibir locais que ofereçam diversão, momentos para estudos, confraternização de familiares e amigos entre outros, promovendo uma conexão entre os ambientes de lazer e entretenimento e a sociedade.
+
 Objetivos específicos 
 - Projetar funcionalidades que permitam buscas assertivas e que representem melhor o tipo de ambiente que o usuário deseja frequentar.
 - Contribuir para que os usuários tenham uma experiência prévia do ambiente físico.
@@ -24,9 +25,10 @@ Objetivos específicos
  
 ## Justificativa
 
-O City Wave vem para proporcionar uma experiência além das redes para gerar laços sociais, despertando o interesse a todas as formas de artes, convívio e cultura, levando o usuário a novos horizontes de lazer, conhecimento e distrações, permitindo se programar e criar o hábito de frequentar diferentes ambientes e fazer novos amigos e networking, com uma aplicação intuitiva, buscas por geolocalização e interesse do usuário.
+O City Wave apresenta qual a onda da cidade e proporciona uma experiência além das redes, gerando laços sociais, despertando o interesse a todas as formas de artes, convívio e cultura, levando o usuário a novos horizontes de lazer, conhecimento e distrações, permitindo se programar e criar o hábito de frequentar diferentes ambientes e fazer novos amigos e networking, com uma aplicação intuitiva, buscas por geolocalização e interesses do usuário.
 
 ## Público-Alvo
 
-A aplicação visa atender as pessoas de modo geral que procuram informações na web sobre pontos de interesse, seja ele turístico, de lazer ou para socializar. Que tenham o hábito de sair, viajar e/ou estão em busca de atividades diferenciadas das que habitualmente praticam.
+A aplicação visa atender as pessoas de modo geral que procuram informações na web sobre pontos de interesse, seja ele turístico, de lazer ou para socializar, que tenham o hábito de sair, viajar e estão em busca de atividades diferenciadas das que habitualmente praticam.
+
 Ficou estabelecido que o público-alvo desta aplicação são homens e mulheres entre 18 e 50 anos, que compõem grupos de amigos, famílias e turistas que estão com a vida social ativa e buscam constantemente novos locais para frequentar e conhecer. Buscando assim, novas experiências, networkings, conhecimento cultural e de biodiversidades.

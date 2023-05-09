@@ -1,18 +1,14 @@
 # Arquitetura da Solução
 
 Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte do ambiente de hospedagem da solução.
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
-
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na figura que se segue.
 
 ![Diagrama de Componentes](img/diagrama_componente.png)
-<center>Figura XX - Arquitetura da Solução</center>
+
+<center>Figura 14 - Arquitetura da Solução</center>
 
 A solução implementada é apresentada na arquitetura de microservices o padrão se baseia em múltiplos serviços e componentes para desenvolver uma estrutura modular.
 - **Browser** - Programa que nos permite navegar pela aplicação Web.

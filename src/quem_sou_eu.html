@@ -2,12 +2,19 @@
 <html>
   <!--código desenvolvido por Mariane de Oliveira Duarte-->
   <head>
-    <title>Quem é você?</title>
+    <title>City Wave</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<style>
+	body {
+		height: 100vh;
+	}
+</style>
         <body>
            <div class="img-container">
-              <a class="navbar-brand mx auto" style="font-size: 22px; font-family: sans-serif; color: #0b0f19; font-weight: 525; letter-spacing: 4px;">
+              <a href="index.html" class="navbar-brand mx auto" style="font-size: 22px; font-family: sans-serif; color: #0b0f19; font-weight: 525; letter-spacing: 4px;">
                 <img src="https://josuewl.github.io/CityWaveTemplate/img/City%20wave%20(2).png" alt="Logo" width="52px" height="52px">
               </a>
             </div>
@@ -62,10 +69,11 @@
   </head>
   <body>
     <div class="container">
-      <h2>Eu sou Eu?</h2>
+      <h2>Qual seu perfil?</h2>
       <p>Escolha o tipo de cadastro que deseja realizar</p>
-        <button type="button"><a href="signup.html" style="color: white; text-decoration: none;">Prestador</a></button>
-        <button type="button"><a href="pagina_cadastro_consumidor" style="color: white; text-decoration: none;">Consumidor</a></button>
+	  <a href="pagina_cadastro_estabelecimento.html"><img src="./img/prestador.png" alt="Prestador"></a>
+	  <a href="signin.html"><img src="./img/consumidor.png" alt="Consumidor"></a>
     </div>
+
   </body>
 </html>

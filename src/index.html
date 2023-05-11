@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CityWave</title>
+    <link rel="stylesheet" href="https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/style.css?ver=1590611604">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+
     <style>
         body {
-            background-color:rgb(223, 223, 255);
+            background-color:rgb(255, 254, 254);
         }
 
         footer {
@@ -21,13 +24,13 @@
 </head>
 
 <body>
-    <div style="margin-block-end: 108px;">
+    <div>
         <header>
-            <nav class="navbar bg-body-tertiary fixed-top shadow">
+            <nav class="navbar bg-body-tertiary shadow" style="height: 78px;">
                 <div class="container-fluid">
-                    <a class="navbar-brand mx-auto" style="font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;" href="#"> <img src="/img/City wave.svg" alt="Logo" width="80" height="80 "
+                    <a class="navbar-brand mx-auto" style="font-size: 22px; font-family: sans-serif; color: #0b0f19; font-weight: 525;
+;
+    letter-spacing: 4px;" href="#"> <img src="./img/City wave (2).png" alt="Logo" width="52px" height="52px"
                             class="d-inline-block align-text-center">CityWave</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
@@ -61,7 +64,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Institucional</a>
+                                    <a href="institucional.html" class="nav-link active" aria-current="page" href="#">Institucional</a>
                                 </li>
                             </ul>
                             <form class="d-flex mt-3" role="search">
@@ -70,10 +73,8 @@
                                 <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                             </form>
                             <div class="d-grid gap-2 mx-auto" style="margin-top: 40px;">
-                                <button class="btn btn-primary shadow" type="button">Entrar</button>
-                                <button class="btn btn-primary" type="button"
-                                    style="background-color:lightskyblue;">Criar
-                                    Conta</button>
+                                <button class="btn btn-primary shadow" type="button" onclick="window.location.href='signin.html'">Entrar</button>
+                                <button class="btn btn-primary" type="button" style="background-color:lightskyblue;" onclick="window.location.href='signup.html'">Criar Conta</button>
                             </div>
 
                         </div>
@@ -83,74 +84,74 @@
         </header>
     </div>
 
-
-    <div class="row featurette" style="margin-inline: 20px; position: relative; height: auto; text-align: center">
-        <div class="col-md-7" style="margin: auto; margin-top: 100px;">
-            <h2 class="featurette-heading fw-normal lh-1 align-text-center">
-                <font style="vertical-align:middle;">
-                    <font style="vertical-align: inherit;">Buscando lugares para se divertir? </font>
-                </font>
-                <span class="text-body-secondary row">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Isso vai explodir sua mente.</font>
-                    </font>
-                </span>
-            </h2>
-            <p class="lead">
-                <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Encontre pontos de interesse, seja ele turístico, de lazer ou
-                        para se socializar. </font>
-                    <h2 class="lead row ">
-                        <font style="vertical-align: inherit;">Eleve sua autoestima através de novas experiências e
-                            emoções.</font>
-                </font>
-                </h2>
-            </p>
-            <div class="d-grid gap-2 col-6 mx-auto" style="width: 180px;">
-                <button class="btn btn-primary" style="border-radius: 20px;" type="button">Entrar</button>
-                <button class="btn btn-primary" style="background-color:lightskyblue; border-radius: 20px;"
-                    type="button">Criar Conta</button>
+  <main>
+    
+    
+    <section class="container-fluid position-relative px-0 pt-0 mt-3 mt-lg-0">
+        <div class="row g-0">
+          <div class="col-xl-7 col-lg-6 pe-lg-5">
+            <div class="d-flex h-100 pe-xl-4">
+              <video class="w-100" autoplay="" muted="" loop="" style="object-fit: cover;">
+                <source src="./img/1954781869.mp4" type="video/mp4">
+              </video>
             </div>
-
+          </div>
+          <div class="col-xl-5 col-lg-6 position-relative py-5">
+            
+            <div class="position-relative zindex-5 text-center text-lg-start px-3 px-lg-0 py-xl-4 py-xxl-5 mt-lg-3 mx-auto mx-lg-0" style="max-width: 530px;">
+              <h2 class="h3 text-primary pb-lg-3">Isso vai explodir sua mente</h2>
+              <h1 class="display-5 pb-lg-3 mb-3">Buscando lugares para se divertir?</h1>
+              <div class="d-flex justify-content-center justify-content-lg-start text-start mb-2">
+                <i class="bx bx-map fs-4 text-primary me-2"></i>
+                <div class="fs-xl" style="font-size: 15px;">Encontre pontos turístico, de lazer ou para se socializar.<br>Eleve sua autoestima através de novas experiências e emoções.</div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start py-4 py-lg-5">
+                <a href="quem_sou_eu.html" class="btn btn-primary shadow-primary btn-lg me-sm-3 me-xl-1 mb-3">Entrar</a>
+                <a href="quem_sou_eu.html" class="btn btn-outline-primary btn-lg mb-3">
+                  <i class="bx bx-calendar-check fs-xl me-2 ms-n1" ></i>
+                  Criar Conta
+                </a>
+              </div>
+              
+            </div>
+          </div>
         </div>
-        <div class="col-md-5" style="margin: auto; margin-top: 50px;">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto shadow"
-                style="border-radius: 20px;" width="600" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
-                aria-label="Espaço reservado: 600 x 500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="45%" y="50%"
-                    fill="var(--bs-secondary-color)" dy=".3em" style="align-items: center;">600x500</text>
-            </svg>
-
+        
+      </section>
+       
+              
+            </div>
+          </div>
         </div>
-    </div>
-
-    <div class="container-fluid" style="margin-block-start: 108px;">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        
+      </section>
+    <div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
             <div class="col-md-4 d-flex align-items-center" style="margin: 25px;">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <img src="/img/City wave.svg" class="bi" width="80" height="80">
+                    <img src="./img/City wave (2).png" class="bi" width="80" height="80">
 
 
                 </a>
-                <span class="mb-3 mb-md-0 text-body-secondary" >
+                <span class="mb-3 mb-md-0 text-body-secondary">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">© 2023 Company, Inc</font>
                     </font>
                 </span>
             </div>
-
+            <div style="display: contents;">
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex" style="margin: 50px;">
-                <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="/img/iconSpotify (2).svg" class="bi"
+                <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="./img/iconSpotify (2).svg" class="bi"
                             width="24" height="24">
                     </a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="/img/iconInstagram (2).svg"
+                <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="./img/iconInstagram (2).svg"
                             class="bi" width="24" height="24">
                     </a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="/img/iconFaceboock.svg" class="bi"
+                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./img/iconFaceboock.svg" class="bi"
                             width="24" height="24">
                     </a></li>
             </ul>
+            </div>
         </footer>
     </div>
 

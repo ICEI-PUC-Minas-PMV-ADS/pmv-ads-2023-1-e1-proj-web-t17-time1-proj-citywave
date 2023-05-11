@@ -22,7 +22,7 @@ O City Wave vem para proporcionar uma experiência além das redes para gerar la
 
 ## Instruções de utilização
 
-Estará hospedada em um site, futuramente disponibilizado.
+Acessar o site da aplicação: [City Wave - A onda da cidade](https://josuewl.github.io/CityWaveTemplate/#)
 
 # Documentação
 

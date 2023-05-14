@@ -29,6 +29,7 @@ main {
 .box {
   position: relative;
   width: 100%;
+  justify-content: center;
   max-width: 1020px;
   height: 640px;
   background-color: #f3f3f3;
@@ -41,7 +42,7 @@ main {
   width: calc(100% - 4.1rem);
   height: calc(100% - 4.1rem);
   top: 50%;
-  left: 50%;
+  left: 75%;
   transform: translate(-50%, -50%);
 }
 
@@ -207,106 +208,12 @@ main.sign-up-mode .carousel {
   left: 0%;
 }
 
-.carousel {
-  position: absolute;
-  height: 100%;
-  width: 50%;
-  left: 45%;
-  top: 0;
-  background-color: #e4e4e6;
-  border-radius: 2rem;
-  display: grid;
-  grid-template-rows: auto 1fr;
-  padding-bottom: 2rem;
-  overflow: hidden;
-  transition: 0.8s ease-in-out;
-}
 
-.images-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
-
-.image {
-  width: 100%;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  opacity: 0;
-  transition: opacity 0.3s, transform 0.5s;
-}
-
-.img-1 {
-  transform: translate(0, -50px);
-}
-
-.img-2 {
-    transform: translate(0, -50px);
-}
-
-.img-3 {
-    transform: translate(0, -50px);
-}
-
-.image.show {
-  opacity: 1;
-  transform: none;
-}
-
-.text-slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.text-wrap {
-  max-height: 3rem;
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-}
-
-.text-group {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  transform: translateY(0);
-  transition: 0.5s;
-}
-
-.text-group h2 {
-  line-height: 2.2rem;
-  font-weight: 600;
-  font-size: 1.6rem;
-}
-
-.bullets {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bullets span {
-  display: block;
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: #aaa;
-  margin: 0 0.25rem;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.bullets span.active {
-  width: 1.1rem;
-  background-color: #151111;
-  border-radius: 1rem;
-}
 
 @media (max-width: 850px) {
   .box {
     height: auto;
-    max-width: 550px;
+    max-width: auto;
     overflow: hidden;
   }
 
@@ -358,10 +265,7 @@ main.sign-up-mode .carousel {
     display: none;
   }
 
-  .text-slider {
-    width: 100%;
-  }
-}
+
 
 @media (max-width: 530px) {
   main {
@@ -392,4 +296,5 @@ main.sign-up-mode .carousel {
   form {
     padding: 1rem 2rem 1.5rem;
   }
+}
 }

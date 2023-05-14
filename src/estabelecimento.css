@@ -4,78 +4,37 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
+  
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-header {
-    background-color: #FFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    height: 80px;
-}
-
-header img {
-    height: 60px;
-    margin: 10px 0px;
-    float: left;
-}
-
-header nav {
-    float: left;
-    margin: 30px 0px 0px 40px;
-}
-
-header nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 30px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-}
-
-header nav ul li a:hover {
-    color: #9aafce;
-}
-
-header .buttons {
-    float: right;
-    margin: 20px 30px 0px 0px;
-    text-align: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-header .buttons button {
-    background-color: #939394;
-    color: #504f4f;
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: none;
-    font-size: 16px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-header .buttons input[type="text"] {
-    padding: 8px 15px;
-    border-radius: 25px;
-    border: none;
-    margin-right: 10px;
 }
 
 .container-pai {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 40px;
+    width: 100%;
+    margin: 0;
 }
+
+.img-container{
+    max-width: 30vw;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-container img {
+      margin-bottom: 1rem;
+    }
+}
+
 .img-container, .container-inf {
     background-color:white;
     border-radius: 5px;
@@ -109,8 +68,8 @@ header .buttons input[type="text"] {
     bottom: 0;
     text-align: right;
     text-overflow: ellipsis;
-    height: 30px;
-    width: 36%;
+    height: 21px;
+    width: 50%;
     font-size: 12px;
     font-style: sans-serif;
     color: #888888;
@@ -130,8 +89,13 @@ header .buttons input[type="text"] {
     font-family: sans-serif;
     letter-spacing: 0px;
     text-align: left;
-    margin-left: -100px;
+    margin-left: -50px;
     white-space: nowrap;  
+    display: block;
+}
+
+.p {
+    margin-left: -50px;
 }
 
 .horas {
@@ -142,6 +106,7 @@ header .buttons input[type="text"] {
     font-family: sans-serif;
     letter-spacing: 0px;
     text-align: center;
+    display: block;
 }
 
 h1 {
@@ -165,31 +130,31 @@ h1 {
 }
 
 .dropbtn {
-    background-color: #fff;
-    color: #bdbaba;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    padding: 10px 10px;
-    margin: -10px 0px 0px 100px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-
-.dropdown-content button {
-    background-color: #f9f9f9;
+    background-color: transparent;
     color: #bdbaba;
     font-size: 16px;
     border: none;
     cursor: pointer;
     padding: 10px 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+.dropdown-content button {
+    background-color: transparent;
+    color: #888484;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
     text-align: left;
-    width: 100%;
-    border-color: ;
 }
 
 .dropdown:hover .dropdown-content {
@@ -200,21 +165,45 @@ h1 {
     background-color:#e0e2e6;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
-    margin: 0 auto;
     padding: 30px 10px;
-    width: 40px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 200px;
     display: flex;
-    width: 61%;
+    width: 60%;
     height: 80px;
-    margin-bottom: -80px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #fav-btn, #fav-btn-2, #fav-btn-3, #fav-btn-4 {
     background-color:#e0e2e6;
     border-radius: 5px;
     border: 1px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+    .container-class {
+      flex-wrap: wrap;
+    }
+    
+    .dropdown {
+      margin: 10px 0;
+      width: 100%;
+    }
+    
+    .dropbtn {
+      width: 100%;
+    }
+    
+    .dropdown-content {
+      min-width: unset;
+    }
 }
 
 .container-pai2, .container-pai3 {
@@ -264,8 +253,8 @@ h1 {
     bottom: 0;
     text-align: right;
     text-overflow: ellipsis;
-    height: 30px;
-    width: 28%;
+    height: 21px;
+    width: 50%;
     font-size: 12px;
     font-style: sans-serif;
     color: #888888;
@@ -318,9 +307,15 @@ h1 {
     bottom: 0;
     text-align: right;
     text-overflow: ellipsis;
-    height: 30px;
-    width: 30%;
+    height: 21px;
+    width: 50%;
     font-size: 12px;
     font-style: sans-serif;
     color: #888888;
+}
+
+@media screen and (max-width: 200px) {
+    .column {
+        width: 100%;
+    }
 }

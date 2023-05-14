@@ -1,4 +1,5 @@
 //<!-- Tela de login desenvolvido por Pedro Henrique N Lemos-->
+//Carrosel de imagens:
 const inputs = document.querySelectorAll(".input-field");
 const toggle_btn = document.querySelectorAll(".toggle");
 const main = document.querySelector("main");
@@ -38,3 +39,49 @@ function moveSlider() {
 bullets.forEach((bullet) => {
   bullet.addEventListener("click", moveSlider);
 });
+
+// Cadastro:
+
+function signup(e){
+  event.preventDefault();
+  //console.log('Funcionando');
+
+  var email = document.getElementById('email').value;
+  var nome = document.getElementById('nome').value;
+  var senha = document.getElementById('senha').value;
+  var confirmarSenha = document.getElementById('confirmarSenha').value;
+
+  var usuario = {
+      email: email,
+      nome: nome,
+      senha: senha,
+  };
+
+  var json = JSON.stringify(usuario);
+  localStorage.setItem(email, json);
+  console.log('usuario adicionado');
+}
+
+// Funcionalidade de validação de cadastro:
+
+function loginFunc(e){
+  event.preventDefault();
+  
+  var email = document.getElementById('email').value;
+  var senha = document.getElementById('senha').value;
+  var result = document.getElementById('result');
+
+  var usuario = localStorage.getItem(email);
+  var dados = JSON.parse(usuario);
+  console.log(dados);
+
+  if(usuario == null){
+    result.innerHTML = "Email incorreto";
+    alert('Por favor, preencha todos os campos corretamente.');
+  } else if(email == dados.email && senha == dados.senha){
+    alert('Login realizado com sucesso!');
+    window.location.href = 'pagina_estabelecimento.html';
+  }else{
+    result.innerHTML = 'Senha incorreta';
+  }
+}

@@ -52,6 +52,9 @@ body {
 .fotos{
   margin-inline: 0px;
   position: relative; 
-  height: 300px;
+  height: 200px;
   background-color: rgb(191, 188, 188);
+  background-image: url('./img/fundoinstitucional.jpg');
+  background-size: cover;
+  background-position: center;
 }

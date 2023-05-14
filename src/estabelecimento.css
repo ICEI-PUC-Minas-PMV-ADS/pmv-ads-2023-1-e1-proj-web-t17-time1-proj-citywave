@@ -1,0 +1,326 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+header img {
+    height: 60px;
+    margin: 10px 0px;
+    float: left;
+}
+
+header nav {
+    float: left;
+    margin: 30px 0px 0px 40px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #9aafce;
+}
+
+header .buttons {
+    float: right;
+    margin: 20px 30px 0px 0px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .buttons button {
+    background-color: #939394;
+    color: #504f4f;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header .buttons input[type="text"] {
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+}
+
+.container-pai {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+}
+.img-container, .container-inf {
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    margin: 0 auto;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .img-container {
+    float: left;
+    margin-left: -220px;
+}
+
+.container .container-inf {
+    float: right;
+    margin-left: -220px;
+}
+.container-inf {
+    margin-left: -350px;
+}
+
+.rodape, .rodape2 {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    text-overflow: ellipsis;
+    height: 30px;
+    width: 36%;
+    font-size: 12px;
+    font-style: sans-serif;
+    color: #888888;
+}
+
+.endereco-horas{
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+#end {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #0b0f19;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: -100px;
+    white-space: nowrap;  
+}
+
+.horas {
+    float: right;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #0b0f19;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 25px;
+    text-align: left;
+    color: #0b0f19;
+}
+
+#avaliacao {
+    font-size: 10px;
+    color: #555454;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #fff;
+    color: #bdbaba;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: -10px 0px 0px 100px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content button {
+    background-color: #f9f9f9;
+    color: #bdbaba;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: left;
+    width: 100%;
+    border-color: ;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container-class {
+    background-color:#e0e2e6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    margin: 0 auto;
+    padding: 30px 10px;
+    width: 40px;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    width: 61%;
+    height: 80px;
+    margin-bottom: -80px;
+}
+
+#fav-btn, #fav-btn-2, #fav-btn-3, #fav-btn-4 {
+    background-color:#e0e2e6;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.container-pai2, .container-pai3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-container2, .container-inf2, .img-container3, .container-inf3 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    margin: 0 auto;
+    padding: 20px;
+    width: 40px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .img-container2, .container .img-container3 {
+    float: left;
+    margin-left: -220px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .container-inf2, .container .container-inf3 {
+    float: right;
+    margin-left: -220px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-inf2, .container-inf3 {
+    margin-left: -350px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rodape3 {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    text-overflow: ellipsis;
+    height: 30px;
+    width: 28%;
+    font-size: 12px;
+    font-style: sans-serif;
+    color: #888888;
+}
+
+.container-pai4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-container4, .container-inf4 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    margin: 0 auto;
+    padding: 20px;
+    width: 40px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .img-container4 {
+    float: left;
+    margin-left: -220px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .container-inf4 {
+    float: right;
+    margin-left: -220px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-inf4, .container-inf4 {
+    margin-left: -350px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rodape4 {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    text-overflow: ellipsis;
+    height: 30px;
+    width: 30%;
+    font-size: 12px;
+    font-style: sans-serif;
+    color: #888888;
+}

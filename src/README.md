@@ -15,3 +15,11 @@ Link da aplicação: [City Wave - A onda da cidade](https://josuewl.github.io/Ci
 - Quem é você; - Mariane
 - Institucional; - Luis
 - Esqueci minha senha; - Mariane
+
+### [0.2.0] - 11/05/2023
+#### Adicionado
+- LocalStorage; = Pedro
+- Cadastro Estabelecimento; = Anna
+- Pagina de estabelecimentos = Mariane
+- Institucional correções = Luis
+- Página unica de estabelecimento = Josué

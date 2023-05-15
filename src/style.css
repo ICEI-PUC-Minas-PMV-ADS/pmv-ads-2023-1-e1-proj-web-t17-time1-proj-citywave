@@ -5,10 +5,9 @@
 body {
       background-color:rgb(255, 255, 255);
   }
-
-  footer {
-      background-color: white;
-  }
+ #footer {
+    padding-top: 108px;
+ }
   .column {
   float: left;
   text-align: center;
@@ -18,11 +17,7 @@ body {
   margin-left: 2px;  
   }
 
-  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
+  
 
   @media screen and (max-width: 200px) {
   .column {

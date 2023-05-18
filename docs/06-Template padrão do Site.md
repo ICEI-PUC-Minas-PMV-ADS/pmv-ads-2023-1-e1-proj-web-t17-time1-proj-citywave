@@ -16,3 +16,14 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 ![Figura 15 - Template padrão do site](img/estrutura.png)
 
 Figura 15 - Template padrão do site
+
+O template criado está disponível no site Template City Wave GitHub Pages e é composto pelos seguintes layouts:
+- Home Page
+- Tela de login
+- Tela de cadastro de usuário
+- Tela de cadastro do estabelecimento
+- Tela individual do estabelecimento
+- Tela Institucional
+
+A responsividade segue o padrão do Bootstrap e aplicação do mecanismo Cascading Style Sheets.
+

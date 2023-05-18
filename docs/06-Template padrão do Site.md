@@ -13,6 +13,6 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 
 O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme figura 15.
 
-![Figura 15 - Template padrão do site](/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/docs/img/estrutura.png)
+![Figura 15 - Template padrão do site](img/estrutura.png)
 
 Figura 15 - Template padrão do site

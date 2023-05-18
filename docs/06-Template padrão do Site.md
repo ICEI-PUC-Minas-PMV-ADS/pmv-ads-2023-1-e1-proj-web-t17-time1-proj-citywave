@@ -10,3 +10,9 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 > - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
 > - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+
+O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme figura 15.
+
+![Figura 15 - Template padrão do site](/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/docs/img/estrutura.png)
+
+Figura 15 - Template padrão do site

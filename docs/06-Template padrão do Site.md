@@ -27,3 +27,9 @@ O template criado está disponível no site Template City Wave GitHub Pages e é
 
 A responsividade segue o padrão do Bootstrap e aplicação do mecanismo Cascading Style Sheets.
 
+#Home Page
+
+Tela principal do site, ou seja, ela é a página de entrada.
+
+
+

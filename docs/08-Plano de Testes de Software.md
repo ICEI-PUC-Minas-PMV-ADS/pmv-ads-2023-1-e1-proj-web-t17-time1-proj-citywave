@@ -25,6 +25,26 @@ Critérios de Êxito:
 > - A página deve direcionar o usuário aos estabelecimentos mais bem avaliados após o mesmo clicar em “Descubra Agora”
 > - Os estabelecimentos devem apresentar pelo menos uma imagem do local.
 > - O usuário não deve fazer login para que a aplicação mostre os estabelecimentos.
+
+## CT - 02 - Filtro de Estabelecimento.
+Requisitos Associados:
+> - RF – 02 – A aplicação web deverá apresentar funcionalidades de filtragem para definir categorias de locais e eventos que o usuário deseja frequentar.
+> - RF – 03 – As funcionalidades de filtro devem possibilitar ao usuário localizar os estabelecimentos por Cidade e Estado.
+
+Objetivo do Teste:
+Verificar se o filtro está apresentando as informações corretamente.
+
+Passos:
+> - Acessar o site: [CityWave](josuewl.github.io)
+> - Clicar em “Descobrir agora”
+> - Ir em "Menu"
+> - Clicar em "Categoria"
+> - Selecionar uma Categoria
+
+Critérios de Êxito:
+> - Deve ser possível filtrar por categoria, Cidade e Estado, simultaneamente ou separadamente.
+> - Após a aplicação dos filtros, a página deve apresentar somente os estabelecimentos com os critérios selecionados.
+
  
 ## Ferramentas de Testes (Opcional)
 

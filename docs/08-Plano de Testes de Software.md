@@ -7,9 +7,13 @@ Os requisitos para a realização dos testes de software são:
  > - Navegadores – Google Chrome, Firefox, Microsoft Edge.
  > - Responsividade em diferentes dispositivos.
 
-Os testes funcionais a serem realizados na aplicação estão descritos abaixo:
+Os casos de testes funcionais a serem realizados na aplicação estão descritos abaixo:
 
 ## CT - 01 - Apresentação Página Home.
+Requisitos Associados:
+> - RF – 04 - A aplicação deverá permitir ao usuário visualizar locais de entretenimento e eventos com todos os detalhes de serviços oferecidos e avaliações associadas.
+> - RF – 05 - A aplicação deverá exibir, para cada estabelecimento ou evento, imagens do ambiente correspondente.
+> - RF – 11 - A aplicação deverá ranquear os estabelecimentos de acordo com o critério de melhor avaliação.
  
 ## Ferramentas de Testes (Opcional)
 

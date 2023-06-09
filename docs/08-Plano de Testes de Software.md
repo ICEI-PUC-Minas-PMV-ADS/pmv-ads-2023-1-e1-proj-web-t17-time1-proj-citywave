@@ -14,6 +14,15 @@ Requisitos Associados:
 > - RF – 04 - A aplicação deverá permitir ao usuário visualizar locais de entretenimento e eventos com todos os detalhes de serviços oferecidos e avaliações associadas.
 > - RF – 05 - A aplicação deverá exibir, para cada estabelecimento ou evento, imagens do ambiente correspondente.
 > - RF – 11 - A aplicação deverá ranquear os estabelecimentos de acordo com o critério de melhor avaliação.
+Objetivo do Teste:
+Verificar se ao acessar o site, a página home está apresentando os estabelecimentos e suas características, além de ranquear os estabelecimentos com melhores avaliações.
+Passos:
+> - Acessar o site: [CityWave](josuewl.github.io)
+> - Clicar em “Descobrir agora”
+Critérios de Êxito:
+> - A página deve direcionar o usuário aos estabelecimentos mais bem avaliados após o mesmo clicar em “Descubra Agora”
+> - Os estabelecimentos devem apresentar pelo menos uma imagem do local.
+> O usuário não deve fazer login para que a aplicação mostre os estabelecimentos.
  
 ## Ferramentas de Testes (Opcional)
 

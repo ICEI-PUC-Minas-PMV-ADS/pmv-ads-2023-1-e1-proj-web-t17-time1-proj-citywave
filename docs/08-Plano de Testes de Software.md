@@ -6,6 +6,7 @@ Os requisitos para a realização dos testes de software são:
  > - Aplicação hospedada em um servidor que permita realizar testagens.
  > - Navegadores – Google Chrome, Firefox, Microsoft Edge.
  > - Responsividade em diferentes dispositivos.
+
 Os testes funcionais a serem realizados na aplicação estão descritos abaixo:
 
  

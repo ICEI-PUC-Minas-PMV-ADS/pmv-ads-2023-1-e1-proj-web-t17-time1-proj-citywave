@@ -16,7 +16,7 @@ Requisitos Associados:
 > - RF – 11 - A aplicação deverá ranquear os estabelecimentos de acordo com o critério de melhor avaliação.
 
 Objetivo do Teste:
-Verificar se ao acessar o site, a página home está apresentando os estabelecimentos e suas características, além de ranquear os estabelecimentos com melhores avaliações.
+> - Verificar se ao acessar o site, a página home está apresentando os estabelecimentos e suas características, além de ranquear os estabelecimentos com melhores avaliações.
 
 Passos:
 > - Acessar o site: [CityWave](josuewl.github.io)
@@ -33,8 +33,7 @@ Requisitos Associados:
 > - RF – 03 – As funcionalidades de filtro devem possibilitar ao usuário localizar os estabelecimentos por Cidade e Estado.
 
 Objetivo do Teste:
-
-Verificar se o filtro está apresentando as informações corretamente.
+> - Verificar se o filtro está apresentando as informações corretamente.
 
 Passos:
 > - Acessar o site: [CityWave](josuewl.github.io)

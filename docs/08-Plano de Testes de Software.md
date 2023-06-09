@@ -46,6 +46,26 @@ Critérios de Êxito:
 > - Deve ser possível filtrar por categoria, Cidade e Estado, simultaneamente ou separadamente.
 > - Após a aplicação dos filtros, a página deve apresentar somente os estabelecimentos com os critérios selecionados.
 
+## CT - 03 - Cadastro e Login.
+Requisitos Associados:
+> - RF – 06 - A aplicação deverá permitir que o usuário realize um login e cadastro para acompanhamento de locais frequentados. O cadastro deverá ser categorizado para o consumidor e o prestador de serviços.
+
+Objetivo do Teste:
+> - Verificar se após efetuar o cadastro, é possível efetuar o login utilizando as mesmas credencias.
+
+Passos:
+> - Acessar o site: [CityWave](josuewl.github.io)
+> - Ir em "Menu"
+> - Clicar em “Criar Conta” e selecionar o perfil desejado
+> - Selecionar o perfil “Consumidor” e ser direcionado para a página de cadastro
+> - Digitar as informações e clicar no botão “Cadastre-se”
+> - Acessar a página de login utilizando as mesmas credenciais
+
+Critérios de Êxito:
+> - Deve ser possível criar uma conta.
+> - A aplicação deve apresentar ao usuário a opção de selecionar o seu perfil como consumidor ou prestador.
+> - Após a criação da conta, a aplicação tem que permitir o usuário(consumidor) acessar o perfil utilizando as mesmas credenciais usadas na criação da conta.
+
  
 ## Ferramentas de Testes (Opcional)
 

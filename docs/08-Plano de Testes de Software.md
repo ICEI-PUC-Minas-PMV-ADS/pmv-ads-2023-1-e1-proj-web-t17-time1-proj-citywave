@@ -24,7 +24,7 @@ Passos:
 Critérios de Êxito:
 > - A página deve direcionar o usuário aos estabelecimentos mais bem avaliados após o mesmo clicar em “Descubra Agora”
 > - Os estabelecimentos devem apresentar pelo menos uma imagem do local.
-> O usuário não deve fazer login para que a aplicação mostre os estabelecimentos.
+> - O usuário não deve fazer login para que a aplicação mostre os estabelecimentos.
  
 ## Ferramentas de Testes (Opcional)
 

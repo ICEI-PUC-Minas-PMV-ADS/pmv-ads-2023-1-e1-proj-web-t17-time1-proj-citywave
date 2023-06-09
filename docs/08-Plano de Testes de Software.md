@@ -32,6 +32,7 @@ Requisitos Associados:
 > - RF – 03 – As funcionalidades de filtro devem possibilitar ao usuário localizar os estabelecimentos por Cidade e Estado.
 
 Objetivo do Teste:
+
 Verificar se o filtro está apresentando as informações corretamente.
 
 Passos:

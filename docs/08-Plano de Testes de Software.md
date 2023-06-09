@@ -9,6 +9,7 @@ Os requisitos para a realização dos testes de software são:
 
 Os testes funcionais a serem realizados na aplicação estão descritos abaixo:
 
+## CT - 01 - Apresentação Página Home.
  
 ## Ferramentas de Testes (Opcional)
 

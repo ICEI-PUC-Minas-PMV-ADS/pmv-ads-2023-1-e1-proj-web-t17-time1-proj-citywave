@@ -100,6 +100,24 @@ Passos:
 Critérios de Êxito:
 > - Ao efetuar as avaliações, a mesma deve ser apresentada no perfil do estabelecimento e ficar disponível para outros usuários acessarem. 
 
+## CT - 06 - Perfil do Prestador.
+Requisitos Associados:
+> - RF – 10 - A aplicação deverá estabelecer dimensões padronizadas para as imagens.
+
+Objetivo do Teste:
+> - Ao acessar o perfil de prestador, o responsável deve conseguir trocar: dados cadastrais, imagens, descrição, redes sociais.   
+
+Passos:
+> - Acessar o site: [CityWave](josuewl.github.io)
+> - Efetuar o Login
+> - Acessar o Perfil
+> - Efetuar as alterações
+
+Critérios de Êxito:
+> - O prestador ao efetuar o login na aplicação, deve ser encaminhado diretamente para o perfil do seu estabelecimento.
+> - O perfil deve apresentar na página de estabelecimentos as alterações feitas no perfil do Prestador.
+> - Deve ser possível alterar as informações e a imagem do estabelecimento acessado.  
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.

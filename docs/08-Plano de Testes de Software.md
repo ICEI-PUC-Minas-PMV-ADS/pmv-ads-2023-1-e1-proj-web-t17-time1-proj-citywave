@@ -62,8 +62,7 @@ Passos:
 
 Critérios de Êxito:
 > - Deve ser possível criar uma conta.
-> - A aplicação deve apresentar ao usuário a opção de selecionar o seu perfil como consumidor ou prestador.
-> - Após a criação da conta, a aplicação tem que permitir o usuário(consumidor) acessar o perfil utilizando as mesmas credenciais usadas na criação da conta.
+> - Após a criação da conta, a aplicação tem que permitir o usuário(prestador) acessar o perfil utilizando as mesmas credenciais usadas na criação da conta.
 
  
 ## Ferramentas de Testes (Opcional)

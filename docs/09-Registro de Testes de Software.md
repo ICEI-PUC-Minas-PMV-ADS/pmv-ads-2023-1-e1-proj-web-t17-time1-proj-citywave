@@ -105,10 +105,47 @@ CT – 06- Perfil do Prestador
 
 <b>Resultado:</b> Êxito. Após efetuar o “Login” foi possível alterar todas as informações e imagens propostas.
 
+## Casos de Falhas
+
+CT – 02- Filtro Estabelecimento
+> - Acessar o link [CityWave](josuewl.github.io)
+
+![Página Home](img/CT_02_01.png)
+<center>Figura 47 - Página Home</center>
+
+> - Clicar em "Descobrir Agora"
+
+![Página Home](img/CT_02_02.png)
+<center>Figura 48 - Página Home</center>
+
+> - Ir no "Menu"
+
+![Página Menu](img/CT_02_03.png)
+<center>Figura 49 - Página Menu</center>
+
+> - Categorias
+
+![Página Categorias](img/CT_02_04.png)
+<center>Figura 50 - Página Categorias</center>
+
+> - Selecionar uma Categoria
+
+![Categoria selecionada](img/CT_02_05.png)
+<center>Figura 51 - Categoria selecionada</center>
+
+<b>Resultado: </b>Não foi apresentada nenhuma alteração na página da aplicação ao selecionar uma categoria.
+
+CT – 04- Perfil Consumidor e Botão Favorito
+
+<b>Resultado: </b>Não houve desenvolvimento dos requisitos funcionais 07 e 08.
+
+CT – 05- Avaliação dos Estabelecimentos
+
+<b>Resultado: </b>Não houve desenvolvimento do requisito funcional 09.
+
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+A aplicação conseguiu apresentar sua principal proposta: a de cadastro dos estabelecimentos e a apresentação dos mesmos em uma lista para que o usuário possa verificar suas informações.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Os pontos identificados para serem melhorados e o principal foco da equipe são: o desenvolvimento dos requisitos funcionais 07 e 08 (Perfil Consumidor/Usuário e Botão Favorito), assim como o requisito funcional 09 (Avaliação dos estabelecimentos).

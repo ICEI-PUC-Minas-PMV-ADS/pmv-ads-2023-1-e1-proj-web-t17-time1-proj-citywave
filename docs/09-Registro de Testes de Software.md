@@ -70,6 +70,42 @@ Após digitar todas as informações do caso em teste, a aplicação apresentou 
 CT – 06- Perfil do Prestador
 > - Acessar o link [CityWave](josuewl.github.io)
 
+![Página Home](img/CT_06_01.png)
+<center>Figura 38 - Página Home</center>
+
+> - Efetuar Login
+
+![Página Login](img/CT_06_02.png)
+<center>Figura 39 - Página Login</center>
+
+> - Acessar Perfil
+
+![Página Perfil do Prestador](img/CT_06_03.png)
+<center>Figura 40 - Página Perfil do Prestador</center>
+
+> - Efetuar Alterações
+
+![Página Perfil Prestador - Dados Cadastrais. ](img/CT_06_04.png)
+<center>Figura 41 - Página Perfil Prestador - Dados Cadastrais. </center>
+
+![Página Estabelecimentos - Alterações Cadastrais.](img/CT_06_05.png)
+<center>Figura 42 - Página Estabelecimentos - Alterações Cadastrais.</center>
+
+![Página Perfil Prestador - Imagens](img/CT_06_06.png)
+<center>Figura 43 - Página Perfil Prestador - Imagens</center>
+
+![Página Estabelecimentos - Alteração da Imagem](img/CT_06_07.png)
+<center>Figura 44 - Página Estabelecimentos - Alteração da Imagem</center>
+
+![Página Perfil Prestador - Imagens](img/CT_06_08.png)
+<center>Figura 45 - Página Perfil Prestador - Imagens</center>
+
+![Página Estabelecimento](img/CT_06_09.png)
+<center>Figura 46 - Página Estabelecimento</center>
+
+<b>Resultado:</b> Êxito. Após efetuar o “Login” foi possível alterar todas as informações e imagens propostas.
+
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.

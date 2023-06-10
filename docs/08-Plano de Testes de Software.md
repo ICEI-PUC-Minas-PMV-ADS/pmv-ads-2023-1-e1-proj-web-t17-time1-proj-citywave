@@ -64,6 +64,24 @@ Critérios de Êxito:
 > - Deve ser possível criar uma conta.
 > - Após a criação da conta, a aplicação tem que permitir o usuário(prestador) acessar o perfil utilizando as mesmas credenciais usadas na criação da conta.
 
+## CT - 04 - Perfil consumidor e botão favorito.
+Requisitos Associados:
+> - RF – 07 - A aplicação deverá permitir adicionar os locais como favoritos.
+> - RF – 08 - A aplicação deverá permitir verificar os locais adicionados como favoritos.
+
+Objetivo do Teste:
+> - Verificar se o botão para adicionar o local aos favoritos está funcionando e se no perfil do consumidor/usuário, está apresentando os estabelecimentos marcados como tal. 
+
+Passos:
+> - Acessar o site: [CityWave](josuewl.github.io)
+> - Efetuar o Login
+> - Clicar em “Criar Conta”
+> - Acessar a página dos estabelecimentos
+> - Clicar no “Favoritar”
+
+Critérios de Êxito:
+> - O botão adicionar aos favoritos deve gravar o estabelecimento e adicioná-lo em uma lista designada somente para locais selecionados como favoritos dos usuários.
+> - O usuário deve ter a possibilidade de filtrar os estabelecimentos que adicionou como favorito.
  
 ## Ferramentas de Testes (Opcional)
 

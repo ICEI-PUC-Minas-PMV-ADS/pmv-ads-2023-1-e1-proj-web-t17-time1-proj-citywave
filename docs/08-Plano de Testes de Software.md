@@ -48,7 +48,7 @@ Critérios de Êxito:
 
 ## CT - 03 - Cadastro e Login.
 Requisitos Associados:
-> - RF – 06 - A aplicação deverá permitir que o usuário realize um login e cadastro para acompanhamento de locais frequentados. O cadastro deverá ser categorizado para o consumidor e o prestador de serviços.
+> - RF – 06 - A aplicação deverá permitir que o estabelecimento realize um login e cadastro. 
 
 Objetivo do Teste:
 > - Verificar se após efetuar o cadastro, é possível efetuar o login utilizando as mesmas credencias.
@@ -56,8 +56,7 @@ Objetivo do Teste:
 Passos:
 > - Acessar o site: [CityWave](josuewl.github.io)
 > - Ir em "Menu"
-> - Clicar em “Criar Conta” e selecionar o perfil desejado
-> - Selecionar o perfil “Consumidor” e ser direcionado para a página de cadastro
+> - Clicar em “Criar Conta”
 > - Digitar as informações e clicar no botão “Cadastre-se”
 > - Acessar a página de login utilizando as mesmas credenciais
 

@@ -67,6 +67,9 @@ Após digitar todas as informações do caso em teste, a aplicação apresentou 
 
 <b>Resultado: </b>Êxito. A aplicação permitiu que o prestador fizesse o login utilizando as mesmas informações usadas no cadastro.
 
+CT – 06- Perfil do Prestador
+> - Acessar o link [CityWave](josuewl.github.io)
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.

@@ -82,7 +82,24 @@ Passos:
 Critérios de Êxito:
 > - O botão adicionar aos favoritos deve gravar o estabelecimento e adicioná-lo em uma lista designada somente para locais selecionados como favoritos dos usuários.
 > - O usuário deve ter a possibilidade de filtrar os estabelecimentos que adicionou como favorito.
- 
+
+## CT - 05 - Avaliação dos Estabelecimentos.
+Requisitos Associados:
+> - RF – 09 - A aplicação deverá apresentar uma funcionalidade que permita ao usuário avaliar o local frequentado. 
+
+Objetivo do Teste:
+> - Ao acessar a página do estabelecimento, deve existir um campo onde o usuário avalie o local com as categorias de: preço, ambiente, localização e atendimento.  
+
+Passos:
+> - Acessar o site: [CityWave](josuewl.github.io)
+> - Efetuar o Login
+> - Acessar a página dos estabelecimentos
+> - Escolher um estabelecimento
+> - Efetuar a avaliação.
+
+Critérios de Êxito:
+> - Ao efetuar as avaliações, a mesma deve ser apresentada no perfil do estabelecimento e ficar disponível para outros usuários acessarem. 
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.

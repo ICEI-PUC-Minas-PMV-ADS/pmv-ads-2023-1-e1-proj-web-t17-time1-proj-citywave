@@ -59,10 +59,10 @@ Após digitar todas as informações do caso em teste, a aplicação apresentou 
 ![Página de Login](img/CT_03_07.png)
 <center>Figura 35 - Página de Login</center>
 
-![Página de Login com Sucesso](img/CT_03_09.png)
+![Página de Login com Sucesso](img/CT_03_10.png)
 <center>Figura 36 - Página de Login com Sucesso</center>
 
-![Página Perfil do Estabelecimento](img/CT_03_08.png)
+![Página Perfil do Estabelecimento](img/CT_03_11.png)
 <center>Figura 37 - Página Perfil do Estabelecimento</center>
 
 <b>Resultado: </b>Êxito. A aplicação permitiu que o prestador fizesse o login utilizando as mesmas informações usadas no cadastro.

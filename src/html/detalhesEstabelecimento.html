@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Pagina individual do estabelecimento desenvolvida por Josué Batista de Almeida-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CityWave</title>
+   <!-- Favicon -->
+   <link href="img/favicon.ico" rel="icon">
+
+   <!-- Google Web Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/style.css?ver=1590611604">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      
+  <link rel="stylesheet" href="../css/template.css" />
+  
+      <!-- Customized Bootstrap Stylesheet -->
+<link href="../css/singleestabelecimento.css" rel="stylesheet">
+    
+
+<!-- Icon Font Stylesheet -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+ 
+  
+</head>
+
+
+<body>
+    <!--Inicio header-->
+  <div>
+    <header>
+        <nav class="navbar bg-body-tertiary shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-auto" href="../index.html"> <img src="../img/logoCityWave.png" alt="Logo"
+                       ></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navegue por</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Categorias
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Categoria 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Categoria 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Categoria 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Categoria 4</a></li>
+                                    <li><a class="dropdown-item" href="#">Categoria x</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="institucional.html">Institucional</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                        </form>
+                        <div class="d-grid gap-2 mx-auto" style="margin-top: 40px;">
+                            <button class="btn btn-primary" type="button" onclick="window.location.href='signin.html'">Entrar</button>
+                            <button class="btn btn-primary" type="button" style="background-color:lightskyblue;" onclick="window.location.href='cadastro_estabelecimento_signup.html'">Criar Conta</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
+<!--Fim header-->
+
+    
+
+
+    <!-- Detalhes do Estabelecimneto -->
+    <div class="container-fluid pb-5" style="margin-top: 50px;">
+        <div class="row px-xl-5">
+            <div class="col-lg-5 mb-30">
+                <div id="product-carousel" class="carousel slide room-item shadow rounded overflow-hidden" data-ride="carousel">
+                    <div class="carousel-inner bg-light">
+                        <!--Banner 1-->
+                        <div class="carousel-item active">
+                            <div class="imagemBanner1">
+                            <img class="imagemBanner1" class="w-100 h-100" src="../img/imagemUdon1.svg" alt="Image">
+                            </div>
+                        </div>
+                        <!--Banner 2-->
+                        <div class="carousel-item">
+                            <div class="imagemBanner2">
+                                <img class="imagemBanner2" class="w-100 h-100" src="../img/imagemUndon2.svg" alt="Image">
+                            </div>
+                        </div>
+                        <!--Banner 3-->
+                        <div class="carousel-item">
+                            <div class="imagemBanner3">
+                                <img class="imagemBanner3" class="w-100 h-100" src="../img/imagemUdon3.svg" alt="Image">
+                            </div>
+                        </div>
+                        <!--Banner 4-->
+                        <div class="carousel-item">
+                        <div class="imagemBanner4">
+                               <img class="imagemBanner4" class="w-100 h-100" src="../img/imagemUdon4.svg" alt="Image">
+                        </div>
+                        </div>
+                        <!--Banner 5-->
+                        <div class="carousel-item">
+                            <div class="imagemBanner5">
+                                   <img class="imagemBanner5" class="w-100 h-100" src="../img/imagemUdon5.svg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
+                        <i class="fa fa-2x fa-angle-left text-dark"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#product-carousel" data-slide="next">
+                        <i class="fa fa-2x fa-angle-right text-dark"></i>
+                    </a>
+                    
+                </div>
+              <!-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">Aberto</small> -->
+
+            </div>
+
+            <div class="col-lg-7 h-auto mb-30">
+                <div class="h-100 bg-light p-30">
+                    <h3 id="elementoTitulo"></h3>
+                    <div class="d-flex mb-3">
+                        <div class="text-primary mr-2">
+                            <small class="fas fa-star"></small>
+                            <small class="fas fa-star"></small>
+                            <small class="fas fa-star"></small>
+                            <small class="fas fa-star-half-alt"></small>
+                            <small class="far fa-star"></small>
+                        </div>
+                        <small class="pt-1">(99 Avaliações)</small>
+                    </div>
+                    <h3 class="font-weight-semi-bold mb-4"><span id="subTitulo"></span></h3>
+
+                    <p class="mb-4"><span id="descricaoPrevia"></span></p>
+                    <div class="d-flex mb-2">
+                        <strong class="text-dark mr-3">Endereço: </strong>
+
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <label><span id="enderecoEstabelecimento"></span></label>
+                        </div>
+
+                    </div>
+                    <div class="d-flex mb-2">
+                        <strong class="text-dark mr-3">Telefone: </strong>
+                       
+                            <div class="custom-control custom-radio custom-control-inline">
+                                
+                                <label><span id="telefoneEstabelecimento"></span></label>
+                            </div> 
+                    </div>
+                    
+                    <div class="d-flex pt-2">
+                        <strong class="text-dark mr-2">Sociais</strong>
+                        <div class="d-inline-flex">
+                            <a class="text-dark px-2" href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="text-dark px-2" href="">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a class="text-dark px-2" href="">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row px-xl-5">
+            <div class="col">
+                <div class="bg-light p-30">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <h4 class="mb-3">Descrição</h4>
+                            <p> <span id="descricaoEstabelecimento"></span></p>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Detalhes do Estabelecimento -->
+
+
+    <!--JavaScript-->
+    <script>
+        //Obtém os dados do localStorage
+        const titulo = localStorage.getItem("titulo");
+        const subTitulo = localStorage.getItem("subTitulo");
+        const descricaoPrevia = localStorage.getItem("descricaoPrevia");
+        const enderecoEstabelecimento = localStorage.getItem("enderecoEstabelecimento");
+        const telefoneEstabelecimento = localStorage.getItem("telefoneEstabelecimento");
+        const descricaoEstabelecimento = localStorage.getItem("descricaoEstabelecimento");
+        //Exibe os dados na página
+        document.getElementById("telefoneEstabelecimento").textContent = telefoneEstabelecimento;
+        document.getElementById("descricaoEstabelecimento").textContent = descricaoEstabelecimento;
+        
+    
+            // Verifica se a chave do localStorage está vazia
+            if (!titulo) {
+            const tituloPadrao = "Undon Culinaria Japonesa";
+                document.getElementById("elementoTitulo").textContent = tituloPadrao;
+            } 
+            
+            if (!subTitulo) {
+                const subTituloPadrao = "O melhor japonês de Belo Horizonte."
+                document.getElementById("subTitulo").textContent = subTituloPadrao;
+              
+            } 
+            
+            if (!descricaoPrevia) {
+                const descricaoPreviaPadrao = "Trouxemos para Belo Horizonte um cardápio de vanguarda, com uma cozinha fusion, misturando sabores, culturas e técnicas, com decoração arrojada. Mais que um japonês, o Udon é uma experiência única!";
+                document.getElementById("descricaoPrevia").textContent = descricaoPreviaPadrao;
+            }
+            
+            if (!enderecoEstabelecimento) {
+                const enderecoEstabelecimentoPadrao = "Belvedere - Estrada para Nova Lima, 421";
+                document.getElementById("enderecoEstabelecimento").textContent = enderecoEstabelecimentoPadrao;
+            }
+            if (!telefoneEstabelecimento) {
+                const telefoneEstabelecimentoPadrao = "(31) 3324-2046 (31) 3324-0052";
+                document.getElementById("telefoneEstabelecimento").textContent = telefoneEstabelecimentoPadrao;
+            } 
+
+            if (!descricaoEstabelecimento) {
+                const descricaoEstabelecimentoPadrao = "Em um ambiente sofisticado, nós apresentamos o Udon como um espaço que concilia da tradicional à moderna cozinha nipônica. Nosso restaurante foi inaugurado em 2008 e atualmente é uma das principais referências da Culinária Japonesa em Belo Horizonte. A cozinha, comandada pelo chef Marcelo San, prepara uma grande variedade de pratos, com entradas, combinados, temakis, ceviches especiais, variedades de Yakisoba, Teppanyaki e também grelhados feitos na Robata.";
+                document.getElementById("descricaoEstabelecimento").textContent = descricaoEstabelecimentoPadrao;
+            } 
+            
+            if (titulo && subTitulo && descricaoPrevia && enderecoEstabelecimento && telefoneEstabelecimento && descricaoEstabelecimento) {
+                // Exibe os dados na página
+                  document.getElementById("elementoTitulo").textContent = titulo;
+                  document.getElementById("subTitulo").textContent = subTitulo;
+                  document.getElementById("descricaoPrevia").textContent = descricaoPrevia;
+                  document.getElementById("enderecoEstabelecimento").textContent = enderecoEstabelecimento;
+                  document.getElementById("telefoneEstabelecimento").textContent = telefoneEstabelecimento;
+                  document.getElementById("descricaoEstabelecimento").textContent = descricaoEstabelecimento;
+        
+
+            }  
+
+        //Imagem Banner 1
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner1 = localStorage.getItem('uploadimagemBanner1');
+        if (uploadimagemBanner1) {
+            const imagemBanner1 = document.createElement('img');
+            imagemBanner1.className = 'imagemBanner1';
+            imagemBanner1.src = 'data:image;base64,' + uploadimagemBanner1;
+            imagemBanner1.alt = 'Image';
+
+            const recebedivImagemBanner1 = document.querySelector('.imagemBanner1');
+            recebedivImagemBanner1.innerHTML = '';
+            recebedivImagemBanner1.appendChild(imagemBanner1);
+        }
+        
+        //Imagem Banner 2
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner2 = localStorage.getItem('uploadimagemBanner2');
+        if (uploadimagemBanner2) {
+          const imagemBanner2 = document.createElement('img');
+            imagemBanner2.className = 'imagemBanner2';
+            imagemBanner2.src = 'data:image;base64,' + uploadimagemBanner2;
+            imagemBanner2.alt = 'Image';
+
+            const recebedivImagemBanner2 = document.querySelector('.imagemBanner2');
+            recebedivImagemBanner2.innerHTML = '';
+            recebedivImagemBanner2.appendChild(imagemBanner2);
+        }
+
+        //Imagem Banner 3
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner3 = localStorage.getItem('uploadimagemBanner3');
+        if (uploadimagemBanner3) {
+          const imagemBanner3 = document.createElement('img');
+            imagemBanner3.className = 'imagemBanner3';
+            imagemBanner3.src = 'data:image;base64,' + uploadimagemBanner3;
+            imagemBanner3.alt = 'Image';
+
+            const recebedivImagemBanner3 = document.querySelector('.imagemBanner3');
+            recebedivImagemBanner3.innerHTML = '';
+            recebedivImagemBanner3.appendChild(imagemBanner3);
+        }
+
+        //Imagem Banner 4
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner4 = localStorage.getItem('uploadimagemBanner4');
+        if (uploadimagemBanner4) {
+          const imagemBanner4 = document.createElement('img');
+            imagemBanner4.className = 'imagemBanner4';
+            imagemBanner4.src = 'data:image;base64,' + uploadimagemBanner4;
+            imagemBanner4.alt = 'Image';
+
+            const recebedivImagemBanner4 = document.querySelector('.imagemBanner4');
+            recebedivImagemBanner4.innerHTML = '';
+            recebedivImagemBanner4.appendChild(imagemBanner4);
+        }
+
+         //Imagem Banner 5
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner5 = localStorage.getItem('uploadimagemBanner5');
+        if (uploadimagemBanner5) {
+          const imagemBanner5 = document.createElement('img');
+            imagemBanner5.className = 'imagemBanner5';
+            imagemBanner5.src = 'data:image;base64,' + uploadimagemBanner5;
+            imagemBanner5.alt = 'Image';
+
+            const recebedivImagemBanner5 = document.querySelector('.imagemBanner5');
+            recebedivImagemBanner5.innerHTML = '';
+            recebedivImagemBanner5.appendChild(imagemBanner5);
+        }
+         
+    </script>
+  
+
+  <!-- Inicio Footer-->
+    <footer class="footer pb-4 border-top shadow">
+        <div class="container">
+            <div class="row ">
+                <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
+                    <div class="text-center px-lg-18 mb-8">
+                        <a class="mb-3" href="../index.html"> <img src="../img/logoCityWave.png" alt="Logo"
+                            style=" width: 100px; height:100%;"></a>                 <p class="mb-0">O CityWave facilita a busca de lugares para se divertir. Esteja em harmonia com o ambiente, aproveite cada momento com quem você mais ama.</p>
+    
+                    <div class="mt-4 list-unstyled" style=" display: flex;
+                    justify-content: center; margin-bottom: 20px;">
+                      <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="../img/iconSpotify (2).svg" class="bi"
+                        width="22" height="22">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="../img/iconInstagram (2).svg"
+                        class="bi" width="22" height="22">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../img/iconFaceboock.svg" class="bi"
+                        width="22" height="22">
+                </a></li>
+                    </div>
+                </div>
+           <div class="row">
+    
+                <!-- Desc -->
+                <div class="col-md-6 col-12 text-center text-md-start">
+                    <span>   <span>© <span id="copyright">
+                        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+    
+                        </script>2023
+                    </span>Design and Coded by <a href="" target="_blank" title="Codescandy">CityWave</a></span>
+                </span></div>
+                  <!-- Links -->
+                <div class="col-12 col-md-6">
+                    <nav class="nav nav-footer justify-content-center justify-content-md-end">
+                        <a class="nav-link active ps-0 " href="../index.html" target="_blank">Home</a>
+                        <a class="nav-link " href="institucional.html" target="_blank">Institucional</a>
+                        <a class="nav-link " href="institucional.html" target="_blank">Nossas Politicas</a>
+    
+                    </nav>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+   <!-- Fim Footer-->
+</div>
+
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  
+</html>

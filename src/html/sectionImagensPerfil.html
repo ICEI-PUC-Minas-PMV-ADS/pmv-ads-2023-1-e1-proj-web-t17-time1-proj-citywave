@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Perfil City Wave</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+  <link rel="stylesheet" href="../css/styles.min.css" />
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<script src="perfilEstabelecimento.js"></script>
+</head>
+
+<body>
+  <!--  Body Wrapper -->
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+    
+   <!-- Sidebar Start -->
+   <aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div>
+      <div class="brand-logo d-flex align-items-center justify-content-between">
+        <a href="sectionDadosCadastraisPerfil.html" class="text-nowrap logo-img">
+          <img src="../img/Perfil/logo.jpg" width="180" alt="" />
+        </a>
+        <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+          <i class="ti ti-x fs-8"></i>
+        </div>
+      </div>
+      <!-- Sidebar navigation-->
+      <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
+        <ul id="sidebarnav">
+          <li class="nav-small-cap">
+            <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+            <span class="hide-menu">Informações Gerais</span>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="sectionDadosCadastraisPerfil.html" aria-expanded="false">
+              <span>
+                <i class="ti ti-layout-dashboard"></i>
+              </span>
+              <span class="hide-menu">Dados Cadastrais</span>
+            </a>
+          </li>
+          <li class="nav-small-cap">
+            <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+            <span class="hide-menu">Informações Adicionais</span>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="sectionImagensPerfil.html" aria-expanded="false">
+              <span>
+                <i class="ti ti-cards"></i>
+              </span>
+              <span class="hide-menu">Imagens</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="sectionDescricaoPerfil.html" aria-expanded="false">
+              <span>
+                <i class="ti ti-file-description"></i>
+              </span>
+              <span class="hide-menu">Descrição</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="sectionRedesSociaisPerfil.html" aria-expanded="false">
+              <span>
+                <i class="bi bi-chat-text-fill"></i>
+              </span>
+              <span class="hide-menu">Redes Sociais</span>
+            </a>
+          </li>
+          <li class="nav-small-cap">
+            <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+            <span class="hide-menu">Autenticação</span>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="/signin.html" aria-expanded="false">
+              <span>
+                <i class="ti ti-login"></i>
+              </span>
+              <span class="hide-menu">Sair</span>
+            </a>
+          </li>
+        </ul>
+        
+      </nav>
+      <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+  </aside>
+    <!--  Main wrapper -->
+    <div class="body-wrapper">
+      <!--  Header Start -->
+      <header class="app-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item d-block d-xl-none">
+              <a class="nav-link sidebartoggler nav-icon-hover" id="headerCollapse" href="javascript:void(0)">
+                <i class="ti ti-menu-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-icon-hover" href="javascript:void(0)">
+                <i class="ti ti-bell-ringing"></i>
+                <div class="notification bg-primary rounded-circle"></div>
+              </a>
+            </li>
+          </ul>
+          <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+            <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+              <li class="nav-item dropdown">
+                <div class="brand-logo d-flex align-items-center justify-content-between">
+                  <a href="sectionDadosCadastraisPerfil.html" class="text-nowrap logo-img">
+                    <img src="../img/logoCityWave.png" width="70" alt="" />
+                  </a>
+                  <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+                  </div>
+                </div>
+                
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!--  Header End -->
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+               <!--Imagem Card List-->
+                <div class="col-md-4">
+                  <h5 class="card-title fw-semibold mb-4">Card List</h5>
+                  <div class="card">
+                    <div class="imagemCardPrincipal">
+                    <img class="card-img-top" src="../img/placeholderCadastro.png"  alt="Imagem">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Banner Card</h5>
+                      <p class="card-text"></p>
+                     <button id="addImagemCardPrincipal" class="btn btn-primary">Alterar Imagem</button>
+                    </div>
+                  </div>
+                </div>
+                <!--Imagem Banner 1-->
+                <div class="col-md-4">
+                  <h5 class="card-title fw-semibold mb-4">Banner Carousel</h5>
+                  <div class="card">
+                    <div class="imagemBanner1">
+                      <img class="card-img-top" src="../img/placeholderCadastro.png"  alt="Imagem">
+                     </div>
+                     <div class="card-body">
+                      <h5 class="card-title">Banner 1</h5>
+                      <p class="card-text"></p>
+                      <button id="addImagem1" class="btn btn-primary">Alterar Imagem</button>
+                    </div>
+                  </div>
+                </div>
+                <!--Imagem Banner 2-->
+                <div class="col-md-4">
+                  <h5 class="card-title fw-semibold mb-4">Banner Carousel</h5>
+                  <div class="card">
+                    <div class="imagemBanner2">
+                      <img class="card-img-top" src="../img/placeholderCadastro.png"  alt="Imagem">
+                     </div>
+                     <div class="card-body">
+                      <h5 class="card-title">Banner 2</h5>
+                      <p class="card-text"></p>
+                      <button id="addImagem2" class="btn btn-primary">Alterar Imagem</button>
+                    </div>
+                  </div>
+                </div>
+                 <!--Imagem Banner 3-->
+                <div class="col-md-4">
+                  <h5 class="card-title fw-semibold mb-4">Banner Carousel</h5>
+                  <div class="card">
+                    <div class="imagemBanner3">
+                      <img class="card-img-top" src="../img/placeholderCadastro.png"  alt="Imagem">
+                     </div>                    
+                     <div class="card-body">
+                      <h5 class="card-title">Banner 3</h5>
+                      <p class="card-text"></p>
+                      <button id="addImagem3" class="btn btn-primary">Alterar Imagem</button>
+                    </div>
+                  </div>
+                </div>
+                 <!--Imagem Banner 4-->
+                <div class="col-md-4">
+                  <h5 class="card-title fw-semibold mb-4">Banner Carousel</h5>
+                  <div class="card">
+                    <div class="imagemBanner4">
+                      <img class="card-img-top" src="../img/placeholderCadastro.png"  alt="Imagem">
+                     </div>                      
+                     <div class="card-body">
+                      <h5 class="card-title">Banner 4</h5>
+                      <p class="card-text"></p>
+                      <button id="addImagem4" class="btn btn-primary">Alterar Imagem</button>
+                    </div>
+                  </div>
+                </div>
+                 <!--Imagem Banner 5-->
+                <div class="col-md-4">
+                  <h5 class="card-title fw-semibold mb-4">Banner Carousel</h5>
+                  <div class="card">
+                    <div class="imagemBanner5">
+                      <img class="card-img-top" src="../img/placeholderCadastro.png"  alt="Imagem">
+                     </div>                      
+                     <div class="card-body">
+                      <h5 class="card-title">Banner 5</h5>
+                      <p class="card-text"></p>
+                      <button id="addImagem5" class="btn btn-primary">Alterar Imagem</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+
+
+
+
+
+    //Card Principal
+    document.addEventListener('DOMContentLoaded', function() {
+        // Seleciona o botão "Adicionar fotos"
+        const addImagemCardPrincipal = document.getElementById('addImagemCardPrincipal');
+
+        // Adiciona um ouvinte de eventos de clique no botão
+        addImagemCardPrincipal.addEventListener('click', function () {
+            // Cria um elemento de input do tipo "file"
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+
+            // Adiciona um ouvinte de eventos para quando um arquivo é selecionado
+            fileInput.addEventListener('change', function () {
+                // Verifica se um arquivo foi selecionado
+                if (fileInput.files.length > 0) {
+                    const file = fileInput.files[0];
+                    const reader = new FileReader();
+
+                    // O evento onload é acionado quando a leitura do arquivo é concluída
+                    reader.onload = function (e) {
+                        // Cria uma nova imagem com a imagem carregada
+                        const imagemCardPrincipal = document.createElement('img');
+                              imagemCardPrincipal.className = 'card-img-top';
+                              imagemCardPrincipal.src = e.target.result;
+                              imagemCardPrincipal.alt = 'Image';
+
+                    
+
+                        // Obtém a div da imagem
+                        const cardImagemPrincipal = document.querySelector('.imagemCardPrincipal');
+
+                        // Substitui a imagem existente pela nova imagem
+                        cardImagemPrincipal.innerHTML = '';
+                        cardImagemPrincipal.appendChild(imagemCardPrincipal);
+
+                        // Salva a imagem no localStorage como uma string base64
+                        const base64Image = e.target.result.split(',')[1];
+                        localStorage.setItem('uploadedImage', base64Image);
+                    };
+
+                    // Lê o arquivo como uma URL de dados
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Aciona o clique no elemento de input do tipo "file"
+            fileInput.click();
+        });
+
+      
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadedImage = localStorage.getItem('uploadedImage');
+        if (uploadedImage) {
+            const imagemCardPrincipal = document.createElement('img');
+            imagemCardPrincipal.className = 'card-img-top';
+            imagemCardPrincipal.src = 'data:image;base64,' + uploadedImage;
+            imagemCardPrincipal.alt = 'Image';
+
+            const cardImagemPrincipal = document.querySelector('.imagemCardPrincipal');
+            cardImagemPrincipal.innerHTML = '';
+            cardImagemPrincipal.appendChild(imagemCardPrincipal);
+        }
+    });
+  
+    //Banner 1
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Seleciona o botão "Adicionar fotos"
+        const addImagem1 = document.getElementById('addImagem1');
+        
+        // Adiciona um ouvinte de eventos de clique no botão
+        addImagem1.addEventListener('click', function () {
+            // Cria um elemento de input do tipo "file"
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+
+            // Adiciona um ouvinte de eventos para quando um arquivo é selecionado
+            fileInput.addEventListener('change', function () {
+                // Verifica se um arquivo foi selecionado
+                if (fileInput.files.length > 0) {
+                    const file = fileInput.files[0];
+                    const reader = new FileReader();
+
+                    // O evento onload é acionado quando a leitura do arquivo é concluída
+                    reader.onload = function (e) {
+                        // Cria uma nova imagem com a imagem carregada
+                        const imagemBanner1 = document.createElement('img');
+                              imagemBanner1.className = 'card-img-top';
+                              imagemBanner1.src = e.target.result;
+                              imagemBanner1.alt = 'Image';
+
+                    
+
+                        // Obtém a div da imagem
+                        const divImagemBanner1 = document.querySelector('.imagemBanner1');
+
+                        // Substitui a imagem existente pela nova imagem
+                        divImagemBanner1.innerHTML = '';
+                        divImagemBanner1.appendChild(imagemBanner1);
+
+                        // Salva a imagem no localStorage como uma string base64
+                        const base64Image = e.target.result.split(',')[1];
+                        localStorage.setItem('uploadimagemBanner1', base64Image);
+                    };
+
+                    // Lê o arquivo como uma URL de dados
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Aciona o clique no elemento de input do tipo "file"
+            fileInput.click();
+        });
+
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner1 = localStorage.getItem('uploadimagemBanner1');
+        if (uploadimagemBanner1) {
+            const imagemBanner1 = document.createElement('img');
+            imagemBanner1.className = 'card-img-top';
+            imagemBanner1.src = 'data:image;base64,' + uploadimagemBanner1;
+            imagemBanner1.alt = 'Image';
+
+            const recebedivImagemBanner1 = document.querySelector('.imagemBanner1');
+            recebedivImagemBanner1.innerHTML = '';
+            recebedivImagemBanner1.appendChild(imagemBanner1);
+        }
+    });
+    
+
+    
+    //Banner 2
+    document.addEventListener('DOMContentLoaded', function() {
+        // Seleciona o botão "Adicionar fotos"
+        const addImagem2 = document.getElementById('addImagem2');
+
+        // Adiciona um ouvinte de eventos de clique no botão
+        addImagem2.addEventListener('click', function () {
+            // Cria um elemento de input do tipo "file"
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+
+            // Adiciona um ouvinte de eventos para quando um arquivo é selecionado
+            fileInput.addEventListener('change', function () {
+                // Verifica se um arquivo foi selecionado
+                if (fileInput.files.length > 0) {
+                    const file = fileInput.files[0];
+                    const reader = new FileReader();
+
+                    // O evento onload é acionado quando a leitura do arquivo é concluída
+                    reader.onload = function (e) {
+                        // Cria uma nova imagem com a imagem carregada
+                        const imagemBanner2 = document.createElement('img');
+                              imagemBanner2.className = 'card-img-top';
+                              imagemBanner2.src = e.target.result;
+                              imagemBanner2.alt = 'Image';
+
+                    
+
+                        // Obtém a div da imagem
+                        const divImagemBanner2 = document.querySelector('.imagemBanner2');
+
+                        // Substitui a imagem existente pela nova imagem
+                        divImagemBanner2.innerHTML = '';
+                        divImagemBanner2.appendChild(imagemBanner2);
+
+                        // Salva a imagem no localStorage como uma string base64
+                        const base64Image = e.target.result.split(',')[1];
+                        localStorage.setItem('uploadimagemBanner2', base64Image);
+                    };
+
+                    // Lê o arquivo como uma URL de dados
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Aciona o clique no elemento de input do tipo "file"
+            fileInput.click();
+        });
+
+      
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner2 = localStorage.getItem('uploadimagemBanner2');
+        if (uploadimagemBanner2) {
+          const imagemBanner2 = document.createElement('img');
+            imagemBanner2.className = 'card-img-top';
+            imagemBanner2.src = 'data:image;base64,' + uploadimagemBanner2;
+            imagemBanner2.alt = 'Image';
+
+            const recebedivImagemBanner2 = document.querySelector('.imagemBanner2');
+            recebedivImagemBanner2.innerHTML = '';
+            recebedivImagemBanner2.appendChild(imagemBanner2);
+        }
+    });
+
+    //Banner 3
+    document.addEventListener('DOMContentLoaded', function() {
+        // Seleciona o botão "Adicionar fotos"
+        const addImagem3 = document.getElementById('addImagem3');
+
+        // Adiciona um ouvinte de eventos de clique no botão
+        addImagem3.addEventListener('click', function () {
+            // Cria um elemento de input do tipo "file"
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+
+            // Adiciona um ouvinte de eventos para quando um arquivo é selecionado
+            fileInput.addEventListener('change', function () {
+                // Verifica se um arquivo foi selecionado
+                if (fileInput.files.length > 0) {
+                    const file = fileInput.files[0];
+                    const reader = new FileReader();
+
+                    // O evento onload é acionado quando a leitura do arquivo é concluída
+                    reader.onload = function (e) {
+                        // Cria uma nova imagem com a imagem carregada
+                        const imagemBanner3 = document.createElement('img');
+                              imagemBanner3.className = 'card-img-top';
+                              imagemBanner3.src = e.target.result;
+                              imagemBanner3.alt = 'Image';
+
+                    
+
+                        // Obtém a div da imagem
+                        const divImagemBanner3 = document.querySelector('.imagemBanner3');
+
+                        // Substitui a imagem existente pela nova imagem
+                        divImagemBanner3.innerHTML = '';
+                        divImagemBanner3.appendChild(imagemBanner3);
+
+                        // Salva a imagem no localStorage como uma string base64
+                        const base64Image = e.target.result.split(',')[1];
+                        localStorage.setItem('uploadimagemBanner3', base64Image);
+                    };
+
+                    // Lê o arquivo como uma URL de dados
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Aciona o clique no elemento de input do tipo "file"
+            fileInput.click();
+        });
+
+      
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner3 = localStorage.getItem('uploadimagemBanner3');
+        if (uploadimagemBanner3) {
+          const imagemBanner3 = document.createElement('img');
+            imagemBanner3.className = 'card-img-top';
+            imagemBanner3.src = 'data:image;base64,' + uploadimagemBanner3;
+            imagemBanner3.alt = 'Image';
+
+            const recebedivImagemBanner3 = document.querySelector('.imagemBanner3');
+            recebedivImagemBanner3.innerHTML = '';
+            recebedivImagemBanner3.appendChild(imagemBanner3);
+        }
+    });
+
+    //Banner 4
+    document.addEventListener('DOMContentLoaded', function() {
+        // Seleciona o botão "Adicionar fotos"
+        const addImagem4 = document.getElementById('addImagem4');
+
+        // Adiciona um ouvinte de eventos de clique no botão
+        addImagem4.addEventListener('click', function () {
+            // Cria um elemento de input do tipo "file"
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+
+            // Adiciona um ouvinte de eventos para quando um arquivo é selecionado
+            fileInput.addEventListener('change', function () {
+                // Verifica se um arquivo foi selecionado
+                if (fileInput.files.length > 0) {
+                    const file = fileInput.files[0];
+                    const reader = new FileReader();
+
+                    // O evento onload é acionado quando a leitura do arquivo é concluída
+                    reader.onload = function (e) {
+                        // Cria uma nova imagem com a imagem carregada
+                        const imagemBanner4 = document.createElement('img');
+                              imagemBanner4.className = 'card-img-top';
+                              imagemBanner4.src = e.target.result;
+                              imagemBanner4.alt = 'Image';
+
+                    
+
+                        // Obtém a div da imagem
+                        const divImagemBanner4 = document.querySelector('.imagemBanner4');
+
+                        // Substitui a imagem existente pela nova imagem
+                        divImagemBanner4.innerHTML = '';
+                        divImagemBanner4.appendChild(imagemBanner4);
+
+                        // Salva a imagem no localStorage como uma string base64
+                        const base64Image = e.target.result.split(',')[1];
+                        localStorage.setItem('uploadimagemBanner4', base64Image);
+                    };
+
+                    // Lê o arquivo como uma URL de dados
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Aciona o clique no elemento de input do tipo "file"
+            fileInput.click();
+        });
+
+      
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner4 = localStorage.getItem('uploadimagemBanner4');
+        if (uploadimagemBanner4) {
+          const imagemBanner4 = document.createElement('img');
+            imagemBanner4.className = 'card-img-top';
+            imagemBanner4.src = 'data:image;base64,' + uploadimagemBanner4;
+            imagemBanner4.alt = 'Image';
+
+            const recebedivImagemBanner4 = document.querySelector('.imagemBanner4');
+            recebedivImagemBanner4.innerHTML = '';
+            recebedivImagemBanner4.appendChild(imagemBanner4);
+        }
+    });
+
+     //Banner 5
+     document.addEventListener('DOMContentLoaded', function() {
+        // Seleciona o botão "Adicionar fotos"
+        const addImagem5 = document.getElementById('addImagem5');
+
+        // Adiciona um ouvinte de eventos de clique no botão
+        addImagem5.addEventListener('click', function () {
+            // Cria um elemento de input do tipo "file"
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+
+            // Adiciona um ouvinte de eventos para quando um arquivo é selecionado
+            fileInput.addEventListener('change', function () {
+                // Verifica se um arquivo foi selecionado
+                if (fileInput.files.length > 0) {
+                    const file = fileInput.files[0];
+                    const reader = new FileReader();
+
+                    // O evento onload é acionado quando a leitura do arquivo é concluída
+                    reader.onload = function (e) {
+                        // Cria uma nova imagem com a imagem carregada
+                        const imagemBanner5 = document.createElement('img');
+                              imagemBanner5.className = 'card-img-top';
+                              imagemBanner5.src = e.target.result;
+                              imagemBanner5.alt = 'Image';
+
+                    
+
+                        // Obtém a div da imagem
+                        const divImagemBanner5 = document.querySelector('.imagemBanner5');
+
+                        // Substitui a imagem existente pela nova imagem
+                        divImagemBanner5.innerHTML = '';
+                        divImagemBanner5.appendChild(imagemBanner5);
+
+                        // Salva a imagem no localStorage como uma string base64
+                        const base64Image = e.target.result.split(',')[1];
+                        localStorage.setItem('uploadimagemBanner5', base64Image);
+                    };
+
+                    // Lê o arquivo como uma URL de dados
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Aciona o clique no elemento de input do tipo "file"
+            fileInput.click();
+        });
+
+      
+        // Verifica se há uma imagem carregada no localStorage e a exibe se existir
+        const uploadimagemBanner5 = localStorage.getItem('uploadimagemBanner5');
+        if (uploadimagemBanner5) {
+          const imagemBanner5 = document.createElement('img');
+            imagemBanner5.className = 'card-img-top';
+            imagemBanner5.src = 'data:image;base64,' + uploadimagemBanner5;
+            imagemBanner5.alt = 'Image';
+
+            const recebedivImagemBanner5 = document.querySelector('.imagemBanner5');
+            recebedivImagemBanner5.innerHTML = '';
+            recebedivImagemBanner5.appendChild(imagemBanner5);
+        }
+    });
+
+  </script>
+  <script src="../javascript/jquery.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/sidebarmenu.js"></script>
+  <script src="../javascript/app.min.js"></script>
+  <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
+</body>
+
+</html>

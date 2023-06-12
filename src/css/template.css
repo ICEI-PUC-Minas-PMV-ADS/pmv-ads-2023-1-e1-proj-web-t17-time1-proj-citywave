@@ -51,3 +51,9 @@ footer {
     height: 61;
 }
 
+#descobrirAgora {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

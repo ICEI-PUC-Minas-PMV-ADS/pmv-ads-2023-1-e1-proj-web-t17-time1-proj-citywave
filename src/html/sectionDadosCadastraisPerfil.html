@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>City Wave</title>
+  <link rel="shortcut icon" type="image/png" href="" />
+  <link rel="stylesheet" href="../css/styles.min.css" />
+  
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--  Body Wrapper -->
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+    <!-- Sidebar Start -->
+    <aside class="left-sidebar">
+      <!-- Sidebar scroll-->
+      <div>
+        <div class="brand-logo d-flex align-items-center justify-content-between">
+          <a href="sectionDadosCadastraisPerfil.html" class="text-nowrap logo-img">
+            <img src="../img/Perfil/logo.jpg" width="180" alt="" />
+          </a>
+          <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+            <i class="ti ti-x fs-8"></i>
+          </div>
+        </div>
+        
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
+          <ul id="sidebarnav">
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Informações Gerais</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="sectionDadosCadastraisPerfil.html" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Dados Cadastrais</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Informações Adicionais</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="sectionImagensPerfil.html" aria-expanded="false">
+                <span>
+                  <i class="ti ti-cards"></i>
+                </span>
+                <span class="hide-menu">Imagens</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="sectionDescricaoPerfil.html" aria-expanded="false">
+                <span>
+                  <i class="ti ti-file-description"></i>
+                </span>
+                <span class="hide-menu">Descrição</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="sectionRedesSociaisPerfil.html" aria-expanded="false">
+                <span>
+                  <i class="bi bi-chat-text-fill"></i>
+                </span>
+                <span class="hide-menu">Redes Sociais</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Autenticação</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="signin.html" aria-expanded="false">
+                <span>
+                  <i class="ti ti-login"></i>
+                </span>
+                <span class="hide-menu">Sair</span>
+              </a>
+            </li>
+          </ul>
+          
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+    </aside>
+    <!--  Sidebar End -->
+    <!--  Main wrapper -->
+    <div class="body-wrapper">
+      <!--  Header Start -->
+      <header class="app-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item d-block d-xl-none">
+              <a class="nav-link sidebartoggler nav-icon-hover" id="headerCollapse" href="javascript:void(0)">
+                <i class="ti ti-menu-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-icon-hover" href="javascript:void(0)">
+                <i class="ti ti-bell-ringing"></i>
+                <div class="notification bg-primary rounded-circle"></div>
+              </a>
+            </li>
+          </ul>
+          <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+            <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+              <li class="nav-item dropdown">
+                <div class="brand-logo d-flex align-items-center justify-content-between">
+                  <a href="sectionDadosCadastraisPerfil.html" class="text-nowrap logo-img">
+                    <img src="../img/logoCityWave.png" width="70" alt="" />
+                  </a>
+                  <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+                  </div>
+                </div>
+                
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+     
+      
+      <!--  Header End -->
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold mb-4">Dados Cadastrais</h5>
+              <div class="card">
+                <div class="card-body">
+                  <!--Formulario-->
+                  <form id="formularioEstabelecimento">
+                    <div class="mb-3">
+                      <label for="titulo" class="form-label">Nome do Estabelecimento</label>
+                      <input type="text" id="titulo" class="form-control" aria-describedby="emailHelp" required><span id="titulo"></span></input>
+                      <div class="form-text">Este será seu nome na página principal</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="subTitulo" class="form-label">Slogan ou Subtítulo</label>
+                      <input type="text" id="subTitulo" class="form-control" aria-describedby="emailHelp" required>
+                      <div class="form-text">Este campo aparecerá na página principal</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="titulo" class="form-label">Categoria Principal</label>
+                      <input type="text" id="categoriaPrincipal" class="form-control" aria-describedby="emailHelp" required><span id="categoriaPrincipal"></span></input>
+                      <div class="form-text">Este campo aparecerá na página principal</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="titulo" class="form-label">Sub Categoria 1</label>
+                      <input type="text" id="subCategoria1" class="form-control" aria-describedby="emailHelp" required><span id="subCategoria1"></span></input>
+                      <div class="form-text">Este campo aparecerá na página principal</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="titulo" class="form-label">Sub Categoria 2</label>
+                      <input type="text" id="subCategoria2" class="form-control" aria-describedby="emailHelp" required><span id="subCategoria2"></span></input>
+                      <div class="form-text">Este campo aparecerá na página principal</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="descricaoPrevia" class="form-label">Descrição Prévia</label>
+                       <textarea class="form-control" id="descricaoPrevia" rows="3" required></textarea>
+                      <div id="exampleFormControlTextarea1" class="form-text">Este campo aparecerá na página principal</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="enderecoEstabelecimento" class="form-label">Endereço do Estabelecimento</label>
+                      <input type="text" class="form-control" id="enderecoEstabelecimento" aria-describedby="emailHelp" required>
+                      <div class="form-text">Este endereço aparecera para o usuario</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="Telefone" class="form-label">Telefone</label>
+                      <input id="telefoneEstabelecimento" type="tel" class="form-control" aria-describedby="emailHelp" required>
+                      <div class="form-text">Ex: 11 99855-4165</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                  </form>
+                  <!--Fim Formulario-->
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("formularioEstabelecimento").addEventListener("submit", function(event){
+      event.preventDefault(); //Evita que o formulário seja enviado
+
+      const titulo = document.getElementById("titulo").value;
+      const subTitulo = document.getElementById("subTitulo").value;
+      const categoriaPrincipal = document.getElementById("categoriaPrincipal").value;
+      const subCategoria1 = document.getElementById("subCategoria1").value;
+      const subCategoria2 = document.getElementById("subCategoria2").value;
+      const descricaoPrevia = document.getElementById("descricaoPrevia").value;
+      const enderecoEstabelecimento = document.getElementById("enderecoEstabelecimento").value;
+      const telefoneEstabelecimento = document.getElementById("telefoneEstabelecimento").value;
+
+     
+      //Armazena os dados no localStorage
+      localStorage.setItem("titulo", titulo);
+      localStorage.setItem("subTitulo", subTitulo);
+      localStorage.setItem("categoriaPrincipal", categoriaPrincipal);
+      localStorage.setItem("subCategoria1", subCategoria1);
+      localStorage.setItem("subCategoria2", subCategoria2);
+      localStorage.setItem("descricaoPrevia", descricaoPrevia);
+      localStorage.setItem("enderecoEstabelecimento", enderecoEstabelecimento);
+      localStorage.setItem("telefoneEstabelecimento", telefoneEstabelecimento);
+
+
+    })
+       
+      //Carrega os dos do localStorage
+      const titulo = localStorage.getItem("titulo");
+      const subTitulo = localStorage.getItem("subTitulo");
+      const categoriaPrincipal = localStorage.getItem("categoriaPrincipal");
+      const subCategoria1 = localStorage.getItem("subCategoria1");
+      const subCategoria2 = localStorage.getItem("subCategoria2");
+      const descricaoPrevia = localStorage.getItem("descricaoPrevia");
+      const enderecoEstabelecimento = localStorage.getItem("enderecoEstabelecimento");
+      const telefoneEstabelecimento = localStorage.getItem("telefoneEstabelecimento");
+
+
+      //Verifica se os dados existem no localStorage
+      if (titulo || descricaoPrevia || subTitulo || enderecoEstabelecimento || telefoneEstabelecimento || categoriaPrincipal || subCategoria1 || subCategoria2) {
+      //Preenche os campos de entrada com os dados salvos
+        document.getElementById("titulo").value = titulo;
+        document.getElementById("subTitulo").value = subTitulo;
+        document.getElementById("categoriaPrincipal").value = categoriaPrincipal;
+        document.getElementById("subCategoria1").value = subCategoria1;
+        document.getElementById("subCategoria2").value = subCategoria2;
+        document.getElementById("descricaoPrevia").value = descricaoPrevia;
+        document.getElementById("enderecoEstabelecimento").value = enderecoEstabelecimento;
+        document.getElementById("telefoneEstabelecimento").value = telefoneEstabelecimento;
+
+      }
+  </script>
+
+
+  <script src="../javascript/jquery.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/sidebarmenu.js"></script>
+  <script src="../javascript/app.min.js"></script>
+  <script src="../assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+  <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
+  <script src="../assets/js/dashboard.js"></script>
+</body>
+
+</html>

@@ -22,7 +22,7 @@ A tela principal do sistema faz chamada para o usuário realizar seu cadastro e 
 
 ![Captura de tela 2023-05-14 224259](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/8bda1092-141e-4599-b9d8-fe7e63eeec85)
 
-Figura 22 - Home Page e Menu
+Figura 24 - Home Page e Menu
 
 Requisitos atendidos
 - RF-02 
@@ -35,7 +35,7 @@ Artefatos da funcionalidade
 
 A tela de login permite ao usuário realizar login, ou ser direcionado para um novo cadastro.
 ![Tela de login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/b2c2d886-ade6-47dd-9720-0d971d1f2e5e)
-Figura 23 - Tela Login
+Figura 25 - Tela Login
 
 
 Requisitos atendidos
@@ -46,4 +46,37 @@ Artefatos da funcionalidade
 - signin.css
 - signin.js
 - template.css
+
+# Tela de cadastro do estabelecimento (RF-06)
+
+Tela que permite ao prestador de serviços realizar um cadastro na plataforma de seu estabelecimento para gerenciá-lo futuramente. O cadastro  é armazenado no LocalStorage com estruturas de dados baseada em JSON.
+
+![Captura de tela 2023-05-14 214639](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/0b48f60c-6ad6-4bda-86ca-5dcb2c753165)
+
+
+Requisitos atendidos
+- RF-06
+Artefatos da funcionalidade
+- cadastro_estabelecimento_signup.html
+- bootstrap
+- signup.css
+- cadastro_estabelecimento_signup.js
+- template.css
+
+# Estrutura de dados
+signup {
+email: "teste02@gmail.com"
+nome: "Udon culinária Japonesa"
+senha: "udon12345"
+}
+
+# Tela individual do estabelecimento (RF-05 e RF-07)
+Tela que permite ao usuário visualizar o estabelecimento selecionado juntamente com as informações referente, avaliações, descrição.
+
+
+
+
+
+
+
 

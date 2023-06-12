@@ -14,7 +14,8 @@ CT – 01 - Apresentação página home
 A aplicação foi responsiva ao abrir a tela de Home. Houve apresentação da imagem dinâmica. Todos os elementos da página carregaram sem apresentar demora ou algum tipo de travamento. 
 
 > - Clicar em "Descobrir Agora"
-![Página Home](img/CT_01_02_v2.png)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/0f9e6132-78dd-4e6b-9f07-de577014725c)
 <center>Figura 28 - Página Home</center>
 
 Ao passar o mouse sobre o botão “Descobrir Agora” o mesmo sobressaiu da tonalidade branca para a azul, permitindo ao usuário que percebesse a opção de clique.

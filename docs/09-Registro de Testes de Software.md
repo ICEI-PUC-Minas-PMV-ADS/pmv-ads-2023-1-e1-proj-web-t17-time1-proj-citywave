@@ -131,7 +131,8 @@ CT – 02- Filtro Estabelecimento
 
 > - Selecionar uma Categoria
 
-![Categoria selecionada](img/CT_02_05.png)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/c6737e5a-8d1a-4fc0-bbd9-f5c97034d584)
 <center>Figura 51 - Categoria selecionada</center>
 
 <b>Resultado: </b>Não foi apresentada nenhuma alteração na página da aplicação ao selecionar uma categoria.

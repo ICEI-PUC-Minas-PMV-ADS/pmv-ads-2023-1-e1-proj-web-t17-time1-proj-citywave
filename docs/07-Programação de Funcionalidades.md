@@ -18,7 +18,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 Home Page e Menu (RF-02)
-A tela principal do sistema faz chamada para o usuário realizar seu cadastro e conta com menu off canvas que permite a navegação pelas demais páginas e categorias. O exemplo da tela é apresentado na Figura 22.
+A tela principal do sistema faz chamada para o usuário realizar seu cadastro e conta com menu off canvas que permite a navegação pelas demais páginas e categorias. O exemplo da tela é apresentado na Figura 24.
 
 ![Captura de tela 2023-05-14 224259](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/8bda1092-141e-4599-b9d8-fe7e63eeec85)
 
@@ -72,12 +72,20 @@ nome: "Udon culinária Japonesa"
 senha: "udon12345"
 }
 
-# Tela individual do estabelecimento (RF-05 e RF-07)
+# Tela lista de estabelecimentos (RF-04 | RF-05 | RF-07)
 Tela que permite ao usuário visualizar o estabelecimento selecionado juntamente com as informações referente, avaliações, descrição.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/b50555aa-2a0f-456d-92c7-a3504eeb5f0c)
+
+
+Figura 27 - Tela individual do estabelecimento
+
+# Tela individual do estabelecimento (RF-05)
+A aplicação deverá permitir ao usuário visualizar locais de entretenimento e eventos com todos os detalhes de serviços oferecidos e avaliações associadas.
 
 ![ImagemTelaindividual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/6539a3a5-1d12-4443-b838-f85679bc4d7a)
 
-Figura 27 - Tela individual do estabelecimento
+Figura 28 - Tela individual do estabelecimento
 
 
 

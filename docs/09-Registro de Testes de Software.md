@@ -19,8 +19,8 @@ A aplicação foi responsiva ao abrir a tela de Home. Houve apresentação da im
 
 Ao passar o mouse sobre o botão “Descobrir Agora” o mesmo sobressaiu da tonalidade branca para a azul, permitindo ao usuário que percebesse a opção de clique.
 
-![Página Estabelecimentos](img/CT_01_03.png)
-<center>Figura 29 - Página Estabelecimentos</center>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/b50555aa-2a0f-456d-92c7-a3504eeb5f0c)
+<center>Figura 29 - Página lista estabelecimentos</center>
 
 Após clicar em “Descobrir Agora” a aplicação direcionou a uma segunda página onde foi apresentada a lista de estabelecimentos que estão cadastrados. Em nenhum momento solicitou o “Login” para acessar. Todos apresentaram pelo menos uma imagem, os botões “Favoritar” e “Ver Detalhes”. 
 

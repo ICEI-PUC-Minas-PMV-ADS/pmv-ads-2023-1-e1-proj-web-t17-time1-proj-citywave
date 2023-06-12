@@ -53,6 +53,8 @@ Tela que permite ao prestador de serviços realizar um cadastro na plataforma de
 
 ![Captura de tela 2023-05-14 214639](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/0b48f60c-6ad6-4bda-86ca-5dcb2c753165)
 
+Figura 26 - Tela de cadastro do estabelecimento
+
 
 Requisitos atendidos
 - RF-06
@@ -72,6 +74,10 @@ senha: "udon12345"
 
 # Tela individual do estabelecimento (RF-05 e RF-07)
 Tela que permite ao usuário visualizar o estabelecimento selecionado juntamente com as informações referente, avaliações, descrição.
+
+![ImagemTelaindividual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/6539a3a5-1d12-4443-b838-f85679bc4d7a)
+
+Figura 27 - Tela individual do estabelecimento
 
 
 

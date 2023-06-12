@@ -55,18 +55,33 @@ Tela que permite ao prestador de serviços realizar um cadastro na plataforma de
 
 Figura 19 - Tela de cadastro do estabelecimento
 
+# Tela Perfil Estabelecimento
+Permite que o prestador de serviços altere e visualize suas informações nas paginal seguintes.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/f0328e41-a480-4840-8d2e-6af465a7112e)
+
+Figura 20 - Tela Perfil Estabelecimento
+
+# Tela lista de estabelecimentos
+
+Tela que permite os usuarios visualizarem os estabelesimentos em Cards com suas informações previas.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/b50555aa-2a0f-456d-92c7-a3504eeb5f0c)
+
+Figura 21 - Tela lista de estabelecimentos
+
 # Tela individual do estabelecimento
 
 Tela que permite ao usuário visualizar o estabelecimento selecionado juntamente com as informações referente, avaliações, descrição e adicionar como favorito.
 
 
-![Tela individual do estabelecimento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/b57e3606-b805-4f28-9a31-5a9a124ba955)
+![ImagemTelaindividual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/6539a3a5-1d12-4443-b838-f85679bc4d7a)
 
-Figura 20 - Tela individual do estabelecimento
+Figura 22 - Tela individual do estabelecimento
 
 # Tela Institucional
 
 Tela que permite aos usuários visualizarem os valores, objetivos e políticas da aplicação.
 
 ![Tela Institucional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/5aaec852-f071-43d4-9d59-fc5727e5d131)
-Figura 21 - Tela Institucional
+Figura 23 - Tela Institucional

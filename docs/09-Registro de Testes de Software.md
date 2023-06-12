@@ -28,7 +28,7 @@ Após clicar em “Descobrir Agora” a aplicação direcionou a uma segunda pá
 <b>Resultado: </b>Êxito. Foi possível através do passo a passo, chegar a finalidade de visualização dos estabelecimentos da aplicação.
 
 CT – 03 - Cadastro e Login
-> - Acessar o link [CityWave](josuewl.github.io)
+> - Acessar o link [CityWave](https://josuewl.github.io/CityWaveTemplate/html/signin.html)
 
 ![Página Home](img/CT_03_01.png)
 <center>Figura 30 - Página Home</center>

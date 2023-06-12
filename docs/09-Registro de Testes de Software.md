@@ -8,7 +8,7 @@ Os registros dos testes realizados na aplicação estão descritos abaixo.
 CT – 01 - Apresentação página home
 > - Acessar o link [CityWave](https://josuewl.github.io/CityWaveTemplate/index.html)
 
-![Página Home](img/CT_01_01.png)
+![Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time1-proj-citywave/assets/127361540/2231c2de-d039-4521-a233-baad9e69bafa)
 <center>Figura 27 - Página Home</center>
 
 A aplicação foi responsiva ao abrir a tela de Home. Houve apresentação da imagem dinâmica. Todos os elementos da página carregaram sem apresentar demora ou algum tipo de travamento. 

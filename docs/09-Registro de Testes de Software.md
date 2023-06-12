@@ -6,7 +6,7 @@ Os registros dos testes realizados na aplicação estão descritos abaixo.
 
 ## Casos de Sucesso
 CT – 01 - Apresentação página home
-> - Acessar o link [CityWave](josuewl.github.io)
+> - Acessar o link [CityWave](https://josuewl.github.io/CityWaveTemplate/index.html)
 
 ![Página Home](img/CT_01_01.png)
 <center>Figura 27 - Página Home</center>

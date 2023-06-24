@@ -1,0 +1,15 @@
+@media screen and (max-width: 200px) {
+    .column {
+        width: 100%;
+    }
+}
+
+#cadastroUser {
+    margin-top: 108px;
+    margin-bottom: 108px;
+}
+
+#cadastroPrestador {
+    margin-top: 108px;
+    margin-bottom: 108px;
+}

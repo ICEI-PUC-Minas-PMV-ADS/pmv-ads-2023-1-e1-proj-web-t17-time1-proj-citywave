@@ -1,0 +1,321 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-pai {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.img-container{
+    max-width: 30vw;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-container img {
+      margin-bottom: 1rem;
+    }
+}
+
+.img-container, .container-inf {
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    margin: 0 auto;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .img-container {
+    float: left;
+    margin-left: -220px;
+}
+
+.container .container-inf {
+    float: right;
+    margin-left: -220px;
+}
+.container-inf {
+    margin-left: -350px;
+}
+
+.rodape, .rodape2 {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    text-overflow: ellipsis;
+    height: 21px;
+    width: 50%;
+    font-size: 12px;
+    font-style: sans-serif;
+    color: #888888;
+}
+
+.endereco-horas{
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+#end {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #0b0f19;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: -50px;
+    white-space: nowrap;  
+    display: block;
+}
+
+.p {
+    margin-left: -50px;
+}
+
+.horas {
+    float: right;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #0b0f19;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    display: block;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 25px;
+    text-align: left;
+    color: #0b0f19;
+}
+
+#avaliacao {
+    font-size: 10px;
+    color: #555454;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #bdbaba;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+.dropdown-content button {
+    background-color: transparent;
+    color: #888484;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container-class {
+    background-color:#e0e2e6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    padding: 30px 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    display: flex;
+    width: 60%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fav-btn, #fav-btn-2, #fav-btn-3, #fav-btn-4 {
+    background-color:#e0e2e6;
+    border-radius: 5px;
+    border: 1px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+    .container-class {
+      flex-wrap: wrap;
+    }
+    
+    .dropdown {
+      margin: 10px 0;
+      width: 100%;
+    }
+    
+    .dropbtn {
+      width: 100%;
+    }
+    
+    .dropdown-content {
+      min-width: unset;
+    }
+}
+
+.container-pai2, .container-pai3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-container2, .container-inf2, .img-container3, .container-inf3 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    margin: 0 auto;
+    padding: 20px;
+    width: 40px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .img-container2, .container .img-container3 {
+    float: left;
+    margin-left: -220px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .container-inf2, .container .container-inf3 {
+    float: right;
+    margin-left: -220px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-inf2, .container-inf3 {
+    margin-left: -350px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rodape3 {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    text-overflow: ellipsis;
+    height: 21px;
+    width: 50%;
+    font-size: 12px;
+    font-style: sans-serif;
+    color: #888888;
+}
+
+.container-pai4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-container4, .container-inf4 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(194, 189, 189, 0.3);
+    margin: 0 auto;
+    padding: 20px;
+    width: 40px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .img-container4 {
+    float: left;
+    margin-left: -220px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .container-inf4 {
+    float: right;
+    margin-left: -220px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-inf4, .container-inf4 {
+    margin-left: -350px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rodape4 {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    text-overflow: ellipsis;
+    height: 21px;
+    width: 50%;
+    font-size: 12px;
+    font-style: sans-serif;
+    color: #888888;
+}
+
+@media screen and (max-width: 200px) {
+    .column {
+        width: 100%;
+    }
+}

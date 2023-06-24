@@ -1,0 +1,59 @@
+/*<!-- Template CSS desenvolvido por Josué Batista de Almeida--> */
+
+*{
+    margin: 0;
+}
+
+
+body {
+    background-color:rgb(255, 254, 254);
+    
+}
+
+footer {
+    background-color: white;
+}
+
+.navbar {
+    height: 78px;
+    
+}
+
+.navbar-brand.mx-auto {
+  
+    width: 100px;
+    height: 61px;
+    font-size: 22px; 
+    font-family: sans-serif; 
+    letter-spacing: 4px;
+  
+    
+}
+
+
+.d-inline-block {
+    width: 52px; 
+    height: 52px;
+    text-align: center;
+}
+
+
+.footer { 
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  padding-top: 50px;
+  
+}
+
+.logofooter {
+    width: 100px;
+    height: 61;
+}
+
+#descobrirAgora {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <!--código desenvolvido por Mariane de Oliveira Duarte-->
+<head>
+	<title>Redefinir Senha - City Wave</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	<link rel="stylesheet" href="../css/esqueci_minha_senha.css" />
+	<script src="../javascript/esqueci_minha_senha.js"></script>
+
+</head>
+<body>
+	
+		<div class="img-container" style="margin-top: 20px;">
+			   <a class="navbar-brand mx auto" style="font-size: 22px; font-family: sans-serif; color: #0b0f19; font-weight: 525; letter-spacing: 4px;">
+				<a class="mb-3" href="../index.html"> <img src="../img/logoCityWave.png" alt="Logo"
+					style=" width: 100px; height:100%;"></a>
+			   </a>
+		 </div>
+	
+
+    <div class="container">
+	    <h1>Redefinir Senha</h1>
+	    <form onsubmit="return validateForm()">
+		    <label for="email">Endereço de E-mail</label><br>
+		    <input type="email" id="email" name="email"><br>
+		    <label for="senha">Nova senha</label><br>
+		    <input type="password" id="senha" name="senha"><br>
+		    <label for="confirma-senha">Confirme a nova senha</label><br>
+		    <input type="password" id="confirma-senha" name="confirma-senha"><br><br>
+            <button type="submit" formaction="login.html" value="Redefinir Senha" style="color: white; text-decoration: none;">Redefinir Senha</a></button>
+	    </form>
+    </div>
+</body>
+</html>

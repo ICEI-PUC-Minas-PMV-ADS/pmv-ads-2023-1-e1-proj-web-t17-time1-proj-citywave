@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Tela de criar conta desenvolvido por Anna-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityWave</title>
+    <link rel="stylesheet" href="../css/signup.css"/>
+    <link rel="stylesheet" href="../css/template.css"/>
+    <link rel="stylesheet" href="https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/style.css?ver=1590611604">
+    <script src="../javascript/cadastro_estabelecimento_signup.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        body {
+            height: 100vh;
+        }
+    </style>
+</head>
+<div>
+    <header>
+        <nav class="navbar bg-body-tertiary shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-auto" href="../index.html"> <img src="../img/logoCityWave.png" alt="Logo"
+                       ></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navegue por</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="html/lista_estabelecimentos.html">Navegar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="institucional.html">Institucional</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar"
+                                aria-label="Search">
+                            <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+                        </form>
+                        <div class="d-grid gap-2 mx-auto" style="margin-top: 40px;">
+                            <button class="btn btn-primary" type="button" onclick="window.location.href='signin.html'">Entrar em sua conta</button>
+                            <button class="btn btn-outline-primary" type="button" onclick="window.location.href='cadastro_estabelecimento_signup.html'">Cadastre seu estabelecimento!</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
+
+<body class="bg-light">
+    <section id="cadastroPrestador" class="container">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-4 text-center bg-white p-5 shadow-sm">
+                <h4 class="text-dark mb-3">Cadastre seu estabelecimento</h4>
+                <h5 class="text-muted mb-3">
+                    Quer divulgar seu estabelecimento?
+                    <br />
+                    Cadastre-se em nossa plataforma :)
+                </h5>
+                <form onsubmit="signup()">
+                    <input type="text" id="nome" placeholder="Nome Fantasia" class="form-control mb-3" required />
+                    <input type="email" id="email" placeholder="E-mail" class="form-control mb-3" required />
+                    <input type="password" id="senha" placeholder="Senha" class="form-control mb-3" required />
+                    <input type="password" id="confirmarSenha" placeholder="Confirmar Senha" class="form-control mb-3" required />
+                    <button type="submit" class="btn btn-primary mb-3">Cadastre-se</button>
+                    <p id="result"></p>
+                </form>
+                <small class="mb-3 d-block text-muted">Ao se cadastrar você está concordando com os <a
+                        href="institucional.html">Termos e Condições</a>.</small>
+            </div>
+        </div>
+    </section>
+    <footer class="footer pb-4 border-top shadow">
+        <div class="container">
+            <div class="row ">
+                <div class="offset-lg-2 col-lg-8 col-md-12 col-12">
+                    <div class="text-center px-lg-18 mb-8">
+                        <a class="mb-3" href="../index.html"> <img src="../img/logoCityWave.png" alt="Logo"
+                            style=" width: 100px; height:100%;"></a>                 <p class="mb-0">O CityWave facilita a busca de lugares para se divertir. Esteja em harmonia com o ambiente, aproveite cada momento com quem você mais ama.</p>
+    
+                    <div class="mt-4 list-unstyled" style=" display: flex;
+                    justify-content: center; margin-bottom: 20px;">
+                      <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="../img/iconSpotify (2).svg" class="bi"
+                        width="22" height="22">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"> <img src="../img/iconInstagram (2).svg"
+                        class="bi" width="22" height="22">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../img/iconFaceboock.svg" class="bi"
+                        width="22" height="22">
+                </a></li>
+                    </div>
+                </div>
+           <div class="row">
+    
+                <!-- Desc -->
+                <div class="col-md-6 col-12 text-center text-md-start">
+                    <span>   <span>© <span id="copyright">
+                        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+    
+                        </script>2023
+                    </span>Design and Coded by <a href="" target="_blank" title="Codescandy">CityWave</a></span>
+                </span></div>
+                  <!-- Links -->
+                <div class="col-12 col-md-6">
+                    <nav class="nav nav-footer justify-content-center justify-content-md-end">
+                        <a class="nav-link active ps-0 " href="../index.html" target="_blank">Home</a>
+                        <a class="nav-link " href="institucional.html" target="_blank">Institucional</a>
+                        <a class="nav-link " href="institucional.html" target="_blank">Nossas Politicas</a>
+    
+                    </nav>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  
+
+</body>

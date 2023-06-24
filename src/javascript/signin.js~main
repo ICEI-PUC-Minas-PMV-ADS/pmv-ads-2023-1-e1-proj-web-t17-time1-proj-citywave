@@ -80,7 +80,7 @@ function loginFunc(e){
     alert('Por favor, preencha todos os campos corretamente.');
   } else if(email == dados.email && senha == dados.senha){
     alert('Login realizado com sucesso!');
-    window.location.href = 'pagina_estabelecimento.html';
+    window.location.href = 'sectionDadosCadastraisPerfil.html';
   }else{
     result.innerHTML = 'Senha incorreta';
   }
